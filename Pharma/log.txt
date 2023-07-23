@@ -1,0 +1,2016 @@
+<!DOCTYPE html><!--[if IE 8]>
+<html class="no-js lt-ie9" xmlns="https://www.w3.org/1999/xhtml" xmlns:og="https://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml" xml:lang="en_PK"
+      lang="en_PK"><![endif]-->
+<!--[if gt IE 8]>
+<!-->
+<html class="no-js" xmlns="https://www.w3.org/1999/xhtml" xmlns:og="https://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml" xml:lang="en-PK" lang="en-PK">
+<!--<![endif]-->
+<head>
+
+  
+<!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script type="text/javascript">
+  (function() {
+    var host = '.infoisinfo.com.pk';
+    var element = document.createElement('script');
+    var firstScript = document.getElementsByTagName('script')[0];
+    var url = 'https://quantcast.mgr.consensu.org'
+      .concat('/choice/', 'H371MTN8xSrxJ', '/', host, '/choice.js')
+    var uspTries = 0;
+    var uspTriesLimit = 3;
+    element.async = true;
+    element.type = 'text/javascript';
+    element.src = url;
+  
+    firstScript.parentNode.insertBefore(element, firstScript);
+  
+    function makeStub() {
+      var TCF_LOCATOR_NAME = '__tcfapiLocator';
+      var queue = [];
+      var win = window;
+      var cmpFrame;
+  
+      function addFrame() {
+        var doc = win.document;
+        var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+  
+        if (!otherCMP) {
+          if (doc.body) {
+            var iframe = doc.createElement('iframe');
+  
+            iframe.style.cssText = 'display:none';
+            iframe.name = TCF_LOCATOR_NAME;
+            doc.body.appendChild(iframe);
+          } else {
+            setTimeout(addFrame, 5);
+          }
+        }
+        return !otherCMP;
+      }
+  
+      function tcfAPIHandler() {
+        var gdprApplies;
+        var args = arguments;
+  
+        if (!args.length) {
+          return queue;
+        } else if (args[0] === 'setGdprApplies') {
+          if (
+            args.length > 3 &&
+            args[2] === 2 &&
+            typeof args[3] === 'boolean'
+          ) {
+            gdprApplies = args[3];
+            if (typeof args[2] === 'function') {
+              args[2]('set', true);
+            }
+          }
+        } else if (args[0] === 'ping') {
+          var retr = {
+            gdprApplies: gdprApplies,
+            cmpLoaded: false,
+            cmpStatus: 'stub'
+          };
+  
+          if (typeof args[2] === 'function') {
+            args[2](retr);
+          }
+        } else {
+          queue.push(args);
+        }
+      }
+  
+      function postMessageEventHandler(event) {
+        var msgIsString = typeof event.data === 'string';
+        var json = {};
+  
+        try {
+          if (msgIsString) {
+            json = JSON.parse(event.data);
+          } else {
+            json = event.data;
+          }
+        } catch (ignore) {}
+  
+        var payload = json.__tcfapiCall;
+  
+        if (payload) {
+          window.__tcfapi(
+            payload.command,
+            payload.version,
+            function(retValue, success) {
+              var returnMsg = {
+                __tcfapiReturn: {
+                  returnValue: retValue,
+                  success: success,
+                  callId: payload.callId
+                }
+              };
+              if (msgIsString) {
+                returnMsg = JSON.stringify(returnMsg);
+              }
+              event.source.postMessage(returnMsg, '*');
+            },
+            payload.parameter
+          );
+        }
+      }
+  
+      while (win) {
+        try {
+          if (win.frames[TCF_LOCATOR_NAME]) {
+            cmpFrame = win;
+            break;
+          }
+        } catch (ignore) {}
+  
+        if (win === window.top) {
+          break;
+        }
+        win = win.parent;
+      }
+      if (!cmpFrame) {
+        addFrame();
+        win.__tcfapi = tcfAPIHandler;
+        win.addEventListener('message', postMessageEventHandler, false);
+      }
+    };
+  
+    makeStub();
+  
+    var uspStubFunction = function() {
+      var arg = arguments;
+      if (typeof window.__uspapi !== uspStubFunction) {
+        setTimeout(function() {
+          if (typeof window.__uspapi !== 'undefined') {
+            window.__uspapi.apply(window.__uspapi, arg);
+          }
+        }, 500);
+      }
+    };
+  
+    var checkIfUspIsReady = function() {
+      uspTries++;
+      if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+        console.warn('USP is not accessible');
+      } else {
+        clearInterval(uspInterval);
+      }
+    };
+  
+    if (typeof window.__uspapi === 'undefined') {
+      window.__uspapi = uspStubFunction;
+      var uspInterval = setInterval(checkIfUspIsReady, 6000);
+    }
+  })();
+  </script>
+  <!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+
+
+    
+
+    <script>
+        var hide_ad = function(s_w, s_d) {
+            var w = document.getElementById(s_w);
+            var d = document.getElementById(s_d);
+            if(w) {w.style.display = "none";}
+            if(d) { d.className = ""; d.style.display = "none"; }
+        };
+
+        var s_gmaps_key = "";
+                s_gmaps_key = "AIzaSyBSnV45lB73FnbIC21Duf5URhRSljL7IqY";
+        
+        
+                var s_protocol = 'https://';
+            </script>
+
+              <title>Zaynoon Pharmaceuticals (pvt) Ltd. - Peshawar</title>
+  <meta name="description" content="ZAYNOON PHARMACEUTICALS (PVT) LTD. is located in Peshawar, Pakistan. If you have any questions, please contact us. Company is working in Medical equipment, Hospital pharmaceuticals business activities.,27-28 B, Industrial Estate,..." />
+  <meta charset="utf-8">
+  <!--[if IEMobile]><meta http-equiv="cleartype" content="on"><![endif]-->
+
+  <meta property="og:title" content="Zaynoon Pharmaceuticals (pvt) Ltd. - Peshawar" />
+  <meta property="og:description" content="ZAYNOON PHARMACEUTICALS (PVT) LTD. is located in Peshawar, Pakistan. If you have any questions, please contact us. Company is working in Medical equipment, Hospital pharmaceuticals business activities.,27-28 B, Industrial Estate,..." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://peshawar.infoisinfo.com.pk/card/zaynoon-pharmaceuticals-pvt-ltd/132025" />
+  <meta property="og:site_name" content="Infoisinfo" />
+  <meta property="og:image" content="https://d262ijfj3ea8g5.cloudfront.net/2017/img/logo.png" />
+
+        
+    <meta name="google" content="nositelinkssearchbox">
+    <meta property="cdomain" content=".infoisinfo.com.pk"/>
+    <meta property="clocale" content="en_PK"/>
+    <meta property="clang" content="en"/>
+
+            <link rel="canonical" href="https://peshawar.infoisinfo.com.pk/card/zaynoon-pharmaceuticals-pvt-ltd/132025"/>
+    
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://d262ijfj3ea8g5.cloudfront.net/2017/img/favicon/ms-icon-144x144.png">
+
+    <meta name="theme-color" content="#4A7CB9">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    
+        <script type="text/javascript" >
+
+      function set_analytics() {
+
+        var data = {"ownerID": "UA-54941599-1", "domainName": ".infoisinfo.com.pk"};
+        window._gaq = window._gaq || [];
+        window._gaq.push(['_setAccount', data.ownerID]);
+        window._gaq.push(['_gat._anonymizeIp']);
+        window._gaq.push(['_setDomainName', data.domainName]);
+        window._gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement("script");
+            ga.type = "text/javascript";
+            ga.async = true;
+            // ga('set', 'anonymizeIp', true);
+            ga.src = ("https:" == document.location.protocol ? "https://ssl" : "https://www") + ".google-analytics.com/ga.js";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+
+        google_analytics_uacct = "UA-54941599-1";
+
+      }
+
+
+      
+        __tcfapi('addEventListener', 2, function(tcData, success) { 
+          if (success) {
+            if (tcData.gdprApplies) {
+              if (tcData.eventStatus === 'tcloaded') {
+                // We have consent, get the tcData string and do the ad request.
+                // The example here is for Google publisher tag
+
+                // print a debug message to the console 
+                console.log('Debug Gan: tcloaded');
+                set_analytics();
+              } else if (tcData.eventStatus === 'useractioncomplete') {
+                // The user gave consent through the UI, get the tcdata string and do the ad request.
+
+                // print a debug message to the console 
+                console.log('Debug Gan: useractioncomplete');
+                set_analytics();
+              } else {
+                // print a debug message to the console
+                console.log('Debug Gan: tcData.eventStatus: ', tcData.eventStatus);
+              }
+            } else { 
+              // gdpr does not apply
+              // Most likely you want to make the ad request in this case 
+
+              // print a debug message to the console 
+              console.log('Debug Gan: gdpr doesn\'t apply');
+              set_analytics();
+            }
+          }
+        });
+
+      
+
+
+
+    </script>
+
+    
+    
+    
+    
+            
+        <style type="text/css">
+                        *,a{outline:0}button,hr,input{overflow:visible}.icon-ul>li,sub,sup{position:relative}.app-preview-component .pull-right,.icon-fw,.icon-li{text-align:center}.stars-wrapper,span.captcha{direction:rtl;unicode-bidi:bidi-override}#close-owner-modal,.owner-info label,.pointer{cursor:pointer}:-moz-placeholder,:-ms-input-placeholder,::-moz-placeholder,::-webkit-input-placeholder{color:#101010;opacity:.6}#owner_info_bck,.modal-bck{background-color:rgba(0,0,0,.75)}.input{border-radius:3px;border:1px solid #d9d9d9;-moz-box-shadow:0 4px 4px #e0e0e0;-webkit-box-shadow:0 4px 4px #e0e0e0;box-shadow:0 4px 4px #e0e0e0}#filters-menu .menu-wrapper,#search-menu .menu-wrapper,#wp_owner_info,.btn-group>li,.leave-comment-wrapper textarea,.owner-info,.premium-company .address-module,.premium-company .title-module,.sezion,.star:after,.star:before,.styled-form textarea,.width_50p{box-sizing:border-box}.sprite-icon{background:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/web/sprite-icons.png) center/contain no-repeat}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.sprite-icon{background-image:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/2x/web/sprite-icons.png)}}.overflow-menu .logo,header .logo{vertical-align:middle;text-indent:-999999px;display:inline-block;background:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/logo.png) center/contain no-repeat;margin:0 auto;width:3.125rem;height:3.125rem}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.overflow-menu .logo,header .logo{background-image:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/2x/logo.png)}}#filters-menu .logo,#search-menu .logo,header .logo-search{vertical-align:middle;text-indent:-999999px;display:block;width:20.875rem;height:3.25rem;margin:0 auto;background:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/web/city-skyline-search.jpg) center/contain no-repeat}progress,sub,sup{vertical-align:baseline}audio,canvas,progress,video{display:inline-block}*{-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-tap-highlight-color:transparent}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}h1{margin:.67em 0}figure{margin:1em 40px}hr{box-sizing:content-box}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects;text-decoration:none}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}.breadcrumbs a:hover,.cookies-claim a:hover,footer .combo-buttons-pc>div a:hover{text-decoration:underline}b,strong{font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0}sub{bottom:-.25em}sup{top:-.5em}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}.text-upper,footer .combo-buttons-pc>div b{text-transform:uppercase}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}.social-videos>li>a,.web_com{white-space:nowrap;text-overflow:ellipsis}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}li,ul{margin:0;padding:0;list-style:none}.icon.icon-pull-left,.icon.pull-left{margin-right:.3em}@font-face{font-family:FontAwesome;src:url(//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0);src:url(//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"),url(//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),url(//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),url(//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"),url(//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");font-weight:400;font-style:normal}.icon,[class^=icon-]{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-lg{font-size:1.33333em;line-height:.75em;vertical-align:-15%}.icon-2x{font-size:2em}.icon-3x{font-size:3em}.icon-4x{font-size:4em}.icon-5x{font-size:5em}.icon-fw{width:1.28571em}.icon-ul{padding-left:0;margin-left:2.14286em;list-style-type:none}.icon.icon-pull-right,.icon.pull-right{margin-left:.3em}.icon-li{position:absolute;left:-2.14286em;width:2.14286em;top:.14286em}.icon-li.icon-lg{left:-1.85714em}.icon-border{padding:.2em .25em .15em;border:.08em solid #eee;border-radius:.1em}.icon-pull-left{float:left}.icon-pull-right,.pull-right{float:right}.pull-left{float:left}.icon-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.icon-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}.icon-rotate-90{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.icon-rotate-180{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.icon-rotate-270{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}.icon-flip-horizontal{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";-webkit-transform:scale(-1,1);-ms-transform:scale(-1,1);transform:scale(-1,1)}.icon-flip-vertical{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";-webkit-transform:scale(1,-1);-ms-transform:scale(1,-1);transform:scale(1,-1)}:root .icon-flip-horizontal,:root .icon-flip-vertical,:root .icon-rotate-180,:root .icon-rotate-270,:root .icon-rotate-90{filter:none}.icon-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}.icon-stack-1x,.icon-stack-2x{position:absolute;left:0;width:100%;text-align:center}.icon-stack-1x{line-height:inherit}.icon-stack-2x{font-size:2em}.icon-inverse{color:#fff}.icon-search:before{content:""}.icon-star:before{content:""}.icon-star-o:before{content:""}.icon-user:before{content:""}.icon-tick:before{content:""}.icon-close:before,.icon-remove:before{content:""}.icon-inbox:before{content:""}.icon-lock:before{content:""}.icon-list:before{content:""}.icon-picture-o:before{content:""}.icon-pencil:before{content:""}.icon-map-marker:before{content:""}.icon-step-backward:before{content:""}.icon-play:before{content:""}.icon-step-forward:before{content:""}.icon-chevron-left:before{content:""}.icon-chevron-right:before{content:""}.icon-plus-circle:before{content:""}.icon-share:before{content:""}.icon-comment:before{content:""}.icon-key:before{content:""}.icon-phone:before{content:""}.icon-twitter:before{content:""}.icon-facebook:before{content:""}.icon-filter:before{content:""}.icon-briefcase:before{content:""}.icon-link:before{content:""}.icon-bars:before{content:""}.icon-pinterest:before{content:""}.icon-google-plus-square:before{content:""}.icon-google-plus:before{content:""}.icon-money:before{content:""}.icon-creditcard:before,.icon-debitcard:before{content:""}.icon-cash:before{content:""}.icon-check:before,.icon-dollar:before,.icon-transferbank:before,.icon-usd:before{content:""}.icon-caret-left:before{content:""}.icon-caret-right:before{content:""}.icon-envelope:before{content:""}.icon-linkedin:before{content:""}.icon-angle-left:before{content:""}.icon-angle-right:before{content:""}.icon-angle-down:before{content:""}.icon-thumbs-up:before{content:""}.icon-youtube:before{content:""}.icon-xing:before{content:""}.icon-youtube-play:before{content:""}.icon-instagram:before{content:""}.icon-foursquare:before{content:""}.icon-vk:before{content:""}.icon-vine:before{content:""}.icon-circle-o-notch:before{content:""}.icon-paypal:before{content:""}.icon-street-view:before{content:""}.icon-facebook-official:before{content:""}.icon-map-o:before{content:""}.icon-map:before{content:""}.icon-vimeo:before{content:""}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}.app-preview-component{padding:2rem 1rem}.app-preview-component p.leading{max-width:18rem;font-weight:300;margin-right:auto;margin-left:auto}.app-preview-component .img{display:block;margin:.375rem auto 0;max-width:23.4375rem;height:15.625rem;background:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/web/app-preview.png) center/contain no-repeat}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.app-preview-component .img{background-image:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/2x/web/app-preview.png)}}.app-preview-component .pull-left,.app-preview-component .pull-right{box-sizing:border-box;width:100%}@media (min-width:46.875em){.app-preview-component .pull-left{width:55%}.app-preview-component .pull-right{margin-top:3rem;width:45%;text-align:left}.app-preview-component h2{font-weight:400}.app-preview-component p.leading{font-size:1.5rem;margin:1rem 0;max-width:20rem}.app-preview-component .img{background-image:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/2x/web/app-preview.png);max-width:none;height:21.875rem;text-align:left}}.register-company-component .video-component{width:100%}.register-company-component .video-component .iframe-wrapper{height:14.375rem}@media (min-width:46.875em){.register-company-component .video-component .iframe-wrapper{height:22.5rem;max-width:45rem;margin:0 auto}}@media (min-width:61.25em){.register-company-component .video-component .iframe-wrapper{float:left;padding-left:2rem;width:55%;box-sizing:border-box}}.register-company-component .video-component .iframe-wrapper .home-video{border:0;box-sizing:border-box;height:100%;padding:0 1.5rem;width:100%}@media (min-width:61.25em){.register-company-component .video-component .text-wrapper.has-video{text-align:left;margin-top:3rem;float:right;width:45%;box-sizing:border-box}}.autocomplete-suggestions{text-align:left;cursor:default;border:1px solid #ccc;border-top:0;background:#fcffff;box-shadow:-1px 1px 3px rgba(0,0,0,.1);opacity:.95;position:absolute;display:none;z-index:9999;max-height:254px;overflow:hidden;overflow-y:auto;box-sizing:border-box}@media (max-width:46.865em){.autocomplete-suggestions{display:none!important}}.autocomplete-suggestions .autocomplete-suggestion{position:relative;padding:.6em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#333;font-size:90%;cursor:pointer}.autocomplete-suggestions .autocomplete-suggestion.selected{background:#f0f0f0}.autocomplete-suggestions .autocomplete-suggestion b{font-weight:400;color:#2F97EE}.cookies-claim{background-color:#fff;border-bottom:1px solid #dadada;color:#6e6e6e;font-size:12px;padding:4px;width:100%;box-sizing:border-box}.cookies-claim a{color:#2F97EE;display:inline-block;margin:0 4px 0 0;padding:0}.cookies-claim p,body,html{margin:0;padding:0}@media (max-width:46.865em){.cookies-claim{border:0;border-top:1px solid #dadada;bottom:0;font-size:11px;line-height:1.3;margin-bottom:0;position:fixed;z-index:2000}h1,h2,h3,h4,h5,h6{line-height:1.4em}}#main-wrapper,.relative,div.flexible{position:relative}body,html{font-family:Helvetica,Arial,sans-serif;height:100%}body{background-color:#f5f5f5}.fonts-loaded html,body{font-family:Roboto,Helvetica,Arial,sans-serif}#main-wrapper{max-width:68.75rem;width:100%}#main-wrapper.menu-shown{overflow:hidden}h1,h2,h3,h4,h5,h6{font-weight:300;color:#343434}.clearfix:after{content:"";display:table;clear:both}.adsbygoogle,.inline-block{display:inline-block}.highlighted{background-color:#eef60f;color:#444;padding:0 .25em}.ad.list-middle,.ad.list-top,.text-center,h1{text-align:center}.text-justify{text-align:justify}.text-left{text-align:left}.text-right{text-align:right}.hide{display:none!important}@media (max-width:61.24em){.hide-on-mobile{display:none!important}}@media (min-width:61.25em){#main-wrapper{box-sizing:border-box;margin:0 auto}.show-on-mobile{display:none!important}}.strong{font-weight:700}h1{font-size:1.25rem}.city-skyline{width:100%;height:11.25rem;margin-bottom:1rem;background:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/web/city-skyline.jpg) center/contain no-repeat}@media (min-width:46.875em){h1{font-size:2.125rem}.city-skyline{margin-bottom:2rem;height:20rem;background-image:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/2x/web/city-skyline.jpg)}}.component{min-height:10rem;margin:1.5625rem 0;width:100%}h1 .subheader,h2 .subheader,h3 .subheader,h4 .subheader,h5 .subheader,h6 .subheader{font-size:.8em;line-height:1.6em}h2{font-size:1.75rem;line-height:1em}h2.small{font-size:.8125rem}.sprite-icon{display:inline-block;vertical-align:middle;width:1.5625rem;height:1.5625rem}.sprite-icon.building{background-position:0 0}@media (min-width:46.875em){.sprite-icon.building{background-image:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/2x/web/sprite-icons.png);text-align:center;display:block;margin:1rem auto;width:3.125rem;height:3.125rem}}.register-company-component{margin-top:1rem;padding:3rem 0;width:100%;background:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/web/register-company-bck.jpg) center/cover repeat-x}.register-company-component .text-wrapper{padding:1rem}.register-company-component p.leading{color:#fff;font-size:1.4rem;font-weight:300;line-height:1.2em;margin:0;padding:1rem 0 2rem}@media (min-width:20em) and (max-width:61.24em){.register-company-component .text-wrapper{text-align:center}.register-company-component p.leading{font-size:1rem;max-width:18.75rem;margin:0 auto}}.register-company-component h2{font-size:2rem;color:#eee}@media (min-width:46.875em){.register-company-component h2{font-weight:400}}.breadcrumbs{background-color:#f2f4f3;font-size:.8rem;font-weight:300;padding:.4rem 0}.breadcrumbs:empty{display:none}.breadcrumbs>p{display:inline-block;margin:.2rem}.breadcrumbs>p:before{color:#dadada;content:"|";font-weight:700;margin-right:.2rem}.web_com:after,div.flexible.closed:after{content:""}.breadcrumbs a,.breadcrumbs p{color:#5a5a5a}@media (min-width:20em) and (max-width:46.865em){.breadcrumbs{display:none}}form.search{padding:0 1.125em}@media (min-width:46.875em){form.search{padding:0}form.search .input{width:17.8125rem;margin-right:.625rem}form.search .submit-wrapper{display:inline-block;width:7.5rem}form.search .btn{padding:0;min-width:0;width:100%}}div.flexible{display:block}div.flexible.closed{max-height:200px;overflow:hidden}div.flexible.closed.filter{max-height:150px}div.flexible.closed:after{position:absolute;bottom:0;left:0;height:50%;width:100%;background:linear-gradient(to top,#f5f5f5 10%,rgba(245,245,245,.7) 25%,rgba(245,245,245,0) 50%);background:-webkit-linear-gradient(to top,#f5f5f5 10%,rgba(245,245,245,.7) 25%,rgba(245,245,245,0) 50%);background:-o-linear-gradient(to top,#f5f5f5 10%,rgba(245,245,245,.7) 25%,rgba(245,245,245,0) 50%);background:-ms-linear-gradient(to top,#f5f5f5 10%,rgba(245,245,245,.7) 25%,rgba(245,245,245,0) 50%);pointer-events:none}a.flexible{display:block;margin-top:-10px;position:relative;z-index:5}a.flexible.related{margin-left:10px}@media (max-width:46.865em){a.flexible.filter{padding:5px 20px 10px;font-size:14px}}.header-message{width:100%;background-color:#7cafe7;border-bottom:2px solid #dedede;box-sizing:border-box;padding:.6rem}.header-message.success{background-color:#62c462}.header-message.error{background-color:#f02741}.header-message span{color:#fff}.header-message .close{background-color:#eaeaea;color:#434343;float:right;font-size:14px;line-height:12px;padding:4px 8px;vertical-align:middle}.message.large{padding-bottom:10px;font-size:18px;font-weight:400}.message.strong{font-weight:400;font-size:15px;display:block}.btn,.three-buttons a,header .logo-brand{display:inline-block}.message.info{color:#888}.input{background-color:#fff;font-size:.9em;height:2.8rem;margin-bottom:.8rem;padding:0 .8em;width:100%;box-sizing:border-box}.input.small{height:2rem;width:auto;max-width:100%}.input.no-shadow{box-shadow:none}.input.disabled{background-color:#eee;color:#767676;cursor:not-allowed}.btn{background-color:#aaa;border:0;border-radius:4rem;box-sizing:border-box;color:#fff;font-size:.8em;height:2.25rem;line-height:2.25rem;margin:0 auto;min-width:9.75rem;padding:0 2.875em}.btn:hover{opacity:.75;cursor:pointer}.btn:disabled{opacity:.5!important}.btn.small{line-height:2.15rem;min-width:0;padding:0 1.6em;width:auto}.btn.big{font-size:1em;height:2.8125rem;line-height:2.8125rem}.btn.icon-only{font-size:1.5em;height:2.4rem;line-height:2.4rem;min-width:0;padding:0;width:2.4rem}.btn.blue{background-color:#2F97EE;color:#f5f5f5}.btn.gold{background-color:#eebc0f;color:#333}.btn.red{background-color:#FC3740;color:#f5f5f5}.btn.green{background-color:#CCD44A;color:#595959}.btn.light-gray{background-color:#e6e6e6;color:#343434}.btn.navy{background-color:#0066d5;color:#fff}.btn.hollow{background-color:transparent;color:#595959;border:1px solid #a9a9a9}.btn.hollow.blue{border-color:#2F97EE;color:#2F97EE}.btn.hollow.navy{border-color:#0066d5;color:#0066d5}.btn.hollow.gold{border-color:#eebc0f;color:#eebc0f}.btn.hollow.red{border-color:#FC3740;color:#FC3740}.btn.hollow.green{border-color:#CCD44A;color:#CCD44A}.black{color:#101010}.three-buttons{margin-top:1rem}.three-buttons a{box-sizing:border-box;text-align:center;width:31.333%;margin:.4rem 1%;min-width:0;padding:0}header{padding:1em .5rem}header .logo-brand{vertical-align:middle;background:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/logo-brand.png) center/contain no-repeat;margin:0 auto auto 1rem;height:2.3125rem;width:12.5rem}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){header .logo-brand{background-image:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/2x/logo-brand.png)}}@media (max-width:46.865em){header .logo-brand{height:1.875rem;margin-left:0;width:100%;margin-top:.6rem}}.nav-header{font-size:120%;margin-top:1rem;padding:0 .5rem}.nav-header [class^=icon-]{font-size:1.1875em;color:#444}.overflow-menu{position:absolute;display:block;width:100%;height:100%;border:0;overflow:hidden}.overflow-menu .logo{display:block}.overflow-menu a.close-menu{color:#444;padding:1rem;display:inline-block}.overflow-menu .menu-wrapper{background-color:#f5f5f5;min-width:17.5rem;max-width:20rem;width:60%;height:120%;position:absolute;top:0;left:0;z-index:100;-webkit-transform:translateZ(0)}.overflow-menu hr{margin:1rem auto;width:50%;border:0;height:1px;background:#cacaca}.overflow-menu .menu-button-wrapper{margin:2rem auto}.overflow-menu .footer{margin-top:4rem}.overflow-menu .footer>span{font-weight:300;color:#444;display:block;margin:.5rem 0}.overflow-menu .footer .title{font-size:1.45rem}.overflow-menu .footer .city-skyline{max-height:11rem}.overflow-menu .background{top:0;left:0;width:100%;height:120%;background-color:rgba(0,0,0,.75);position:fixed;z-index:50;-webkit-transform:translateZ(0)}#filters-menu,#filters-menu .menu-wrapper,#search-menu,#search-menu .menu-wrapper{width:100%;max-width:100%}#filters-menu .menu-wrapper,#search-menu .menu-wrapper{padding:1rem}#filters-menu .logo,#search-menu .logo{margin-top:0}@media (min-width:20em) and (max-width:29.99em){#filters-menu,#search-menu{padding-bottom:.2rem}#filters-menu .logo,#search-menu .logo{max-width:13.75rem;z-index:-1}}@media (min-width:21.875em) and (max-width:29.99em){#filters-menu .logo,#search-menu .logo{max-width:17.5rem}}#filters-menu .facet-list.collapsed,#search-menu .facet-list.collapsed{max-height:11em;padding:0 .4em}#filters-menu .subtitle,#search-menu .subtitle{color:#888;display:block}footer{border-top:1px solid #eaeaea;padding-top:1rem}footer .copyright{font-size:.86rem;line-height:1.6em;margin:0;padding:1.4em 0}footer .social-media-buttons{text-align:center;max-width:12.5rem;margin:0 auto}footer .social-media-buttons>li{width:25%;display:inline-block}footer .social-media-buttons>li>a{display:inline-block;width:1.8rem;height:1.8rem;line-height:1.8rem;border-radius:100%;color:#fefefe}footer .social-media-buttons>li>a.youtube{font-size:.7em;background-color:#E24B35}footer .social-media-buttons>li>a.twitter{background-color:#349DEF}footer .social-media-buttons>li>a.facebook{background-color:#5B78C9}footer .social-media-buttons>li>a.google-plus{background-color:#DC4E41}footer .social-media-buttons>li>a>i{font-size:.9em}footer .combo-buttons{padding:.5rem}footer .combo-buttons a{display:block;border-radius:3px;border:1px solid #fff;-moz-box-shadow:0 4px 4px #efefef;-webkit-box-shadow:0 4px 4px #efefef;box-shadow:0 4px 4px #efefef;background-color:#fff;color:#444;margin:.4rem;padding:.8rem}.results-wrapper .ad.search,.results-wrapper .card{box-shadow:none;border:1px solid #f5f5f5;background-color:transparent}footer .combo-buttons a>i{float:right;font-size:1.4rem;margin-right:.4rem;margin-top:-.2rem}footer .combo-buttons-pc{font-size:.8em;padding:1rem 1rem 0}footer .combo-buttons-pc>div{float:left;width:25%}footer .combo-buttons-pc>div a,footer .combo-buttons-pc>div b{color:#444;display:block;padding:.3em 0}@media (min-width:46.875em){.results-wrapper>ul{padding:0 1.2rem}}.results-wrapper .card{border-top-color:#e1e1e1;margin-bottom:0}.results-wrapper .card:hover{border-color:#cfcfcf}.results-wrapper .card a.view-company{padding:1.6rem 1.2rem 1rem}.PK footer .combo-buttons-pc>div{width:33%}.trigger-proximity-search{display:none}.ad.search{background-color:#fff;padding:1rem;border-radius:3px;border:1px solid #fff;-moz-box-shadow:0 4px 4px #efefef;-webkit-box-shadow:0 4px 4px #efefef;box-shadow:0 4px 4px #efefef;margin-bottom:1rem}.ad.card{padding-left:0!important;padding-right:0!important}.ad.list-top{margin:1rem 0 0;padding:0}.ad.list-top>ins{width:980px;height:90px}@media (min-width:20em) and (max-width:46.865em){.ad.list-top>ins{width:320px;height:50px}}@media (min-width:468px) and (max-width:728px){.ad.list-top>ins{width:468px;height:60px}}@media (min-width:728px) and (max-width:979px){.ad.list-top>ins{width:728px;height:90px}}@media (min-width:750px){.ad.list-top{margin-bottom:1rem}}.ad.list-top+.content-wrapper{margin-top:0}.ad.list-middle>ins{width:300px;height:250px}.ad.skyscraper-search>ins{width:300px;height:600px}@media (min-width:46.875em) and (max-width:65.615em){.ad.skyscraper-search>ins{width:160px;height:600px}}.ad.company-bottom>ins,.ad.company-mid>ins,.ad.company-top>ins{width:300px;height:250px}.ad.company-top-mobile>ins{width:320px;min-height:50px;max-height:100px;height:auto}#content .related-companies .card{padding:0}#content .related-companies .card .icon-phone{color:#aaa;margin-top:.4em}@media (max-width:46.865em){.results-wrapper.PK .h1-wrapper h1{font-size:2.4em}.ad.skyscraper-search>ins{display:none}#content .related-companies .card .icon-phone{font-size:1.6em}}#content .related-companies .card .title{display:inline-block;vertical-align:middle;font-family:arial;font-size:16px;font-weight:700;margin:.2em 0;width:calc(100% - 40px)}#content .related-companies .card a.view-company{display:block;padding:1rem 1.2rem}#content .related-companies .card a.view-company span.title-com{border-bottom:2px solid transparent;color:#0066d5}#content .related-companies .card a.view-company span.title-com+span{font-weight:300;color:#aaa}@media (min-width:20em) and (max-width:46.865em){#content .related-companies .card a.view-company span.title-com{border-bottom-width:1px;line-height:1.6em}}#content .related-companies .card a.view-company:hover{text-decoration:none!important}#close-owner-modal:hover,#content .related-companies .card .directions:hover,.button-pencil:hover span,a:hover{text-decoration:underline}#content .related-companies .card a.view-company:hover span.title-com{border-bottom-color:#0066d5}#content .related-companies .card a.view-company:hover span.title-com+span{border-bottom-color:#aaa}#content .related-companies .card .address{font-size:14px;color:#555}#content .related-companies .card .description{font-size:12px;line-height:1.6em;color:#888}#content .related-companies .card .address,#content .related-companies .card .description{margin:.6em 0}#content .related-companies .card .directions{color:#2F97EE;cursor:pointer;font-size:.85em;margin:0 0 .4rem}@media (max-width:46.865em){#content .related-companies .card .directions{display:block;margin:.4rem 0}}#content .related-companies .card .marker-order{color:#444;background:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/maps/markers/red.png);width:32px;height:32px;padding:0;line-height:20px;font-size:11px;text-align:center;font-weight:700;display:inline-block;vertical-align:middle}#content .related-companies .card .marker-order.empty{background:url(https://d262ijfj3ea8g5.cloudfront.net/2017/img/maps/markers/gray.png);cursor:help}#content .related-companies .card .marker-order+.title{width:calc(100% - 80px)}#content .related-companies .premium.card .marker-order{background:0 0}#content .related-companies .company.premium .carousel-wrapper,.carousel-images .carousel-wrapper{overflow-x:auto;overflow-y:hidden;height:8rem;vertical-align:middle;width:100%}#content .related-companies .company.premium .carousel-wrapper::-webkit-scrollbar,.carousel-images .carousel-wrapper::-webkit-scrollbar{width:12px}#content .related-companies .company.premium .carousel-wrapper::-webkit-scrollbar:vertical,.carousel-images .carousel-wrapper::-webkit-scrollbar:vertical{display:none}#content .related-companies .company.premium .carousel-wrapper::-webkit-scrollbar:horizontal,.carousel-images .carousel-wrapper::-webkit-scrollbar:horizontal{display:block!important}#content .related-companies .company.premium .carousel-wrapper::-webkit-scrollbar-track,.carousel-images .carousel-wrapper::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3)!important;-webkit-border-radius:10px!important;border-radius:10px!important}#content .related-companies .company.premium .carousel-wrapper::-webkit-scrollbar-thumb,.carousel-images .carousel-wrapper::-webkit-scrollbar-thumb{-webkit-border-radius:10px!important;border-radius:10px!important;background:#aaa!important;-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.5)!important}#content .related-companies .company.premium .carousel-wrapper .carousel,.carousel-images .carousel-wrapper .carousel{margin:1rem 0}#content .related-companies .company.premium .carousel-wrapper .carousel>img,.carousel-images .carousel-wrapper .carousel>img{border-radius:1rem;max-height:6rem;margin-right:6px;vertical-align:middle;background-color:#fff}a{color:#0066d5}h1{text-align:left}@media (min-width:20em) and (max-width:29.99em){header{padding-bottom:.2rem}header .logo-search{max-width:13.75rem;z-index:-1}}@media (min-width:21.875em) and (max-width:29.99em){header .logo-search{max-width:17.5rem}}hr{background-color:#d8d8d8;border:0;height:1px;margin:20px 0}hr.gray{background-color:#777}#content{margin-top:1rem}#content h2{line-height:1.6rem;font-weight:700;font-size:1.25rem}.leave-comment-wrapper,.styled-form{width:80%;box-sizing:border-box;z-index:50;background-color:#eef4fe;border:1px solid #dedede;padding:3% 5%;margin:10% 10% 0;position:absolute}@media (max-width:29.99em){.leave-comment-wrapper,.styled-form{margin:10% 0 0;width:100%}}.leave-comment-wrapper p,.styled-form p{color:#474747;line-height:1.4rem}.leave-comment-wrapper textarea,.styled-form textarea{background-color:#fff;border:1px solid #ccc;color:#4a4a4a;font-size:14px;padding:4px 4px 20px;width:100%}@media (max-width:46.865em){.leave-comment-wrapper textarea,.styled-form textarea{padding:4px 4px 24px}}.leave-comment-wrapper textarea:active,.leave-comment-wrapper textarea:focus,.styled-form textarea:active,.styled-form textarea:focus{border-color:rgba(82,168,236,.8);outline:0}.leave-comment-wrapper textarea.exceeded:focus,.styled-form textarea.exceeded:focus{border-color:#e1474e}.width_50p{padding:10px;width:50%}@media (max-width:46.865em){.width_50p{width:100%}}input.captcha{margin:10px auto;padding:3px;width:40px}span.captcha{color:#ff4500;padding:2px 6px;font-size:14px}.popover-content{font-size:12px;line-height:16px}.close-popover{cursor:pointer;position:absolute;right:4px;top:4px}#content h3{font-size:15px;font-weight:400;margin:4px 0}.button-pencil span,.message{font-size:14px}#comments{margin:2rem auto}.separator{position:relative;width:100%;height:20px}.message{font-weight:700}.message.error{color:#e1474e}.message.success{color:#478748}.button-pencil{margin-right:10px;vertical-align:sub}.map-com,.mid-wrapper,.rating_com,.tlf_com{vertical-align:middle}.button-pencil i{font-size:20px}@media (max-width:46.865em){.button-pencil span{font-size:14px}.button-pencil i{font-size:18px;line-height:18px;display:inline-block}.left-column{display:none}}.social_login{margin:10px auto}#wp_owner_info{display:none;position:absolute;top:0;left:0;width:100%;margin:0 auto;z-index:500;padding:8% 4%}.owner-info{background-color:#fff;border:2px solid #545454;padding:15px;-moz-box-shadow:0 0 12px -6px #000;-webkit-box-shadow:0 0 12px -6px #000;box-shadow:0 0 12px -6px #000;position:relative;z-index:600;max-width:700px;margin:0 auto}.owner-info .owner-header{background-color:#fafafa;font-size:16px;padding:16px;margin:0}.owner-info label{font-size:12px}.owner-info span{font-size:14px}.owner-info form,.owner-info p{margin:1em}.owner-info .signin label{text-align:left;float:left;width:150px;padding:4px 0}.owner-info .signin input[type=text],.owner-info .signin input[type=password]{min-width:200px;font-size:80%;margin-bottom:0}#close-owner-modal{font-size:16px}#owner_info_bck{top:0;left:0;width:100%;height:100%;position:fixed;z-index:550}.left-column{position:absolute;width:300px}.main-column{margin:0 0 0 320px;padding:.6rem}@media (max-width:46.865em){.main-column{margin:0}}.main-column .top-wrapper{float:right;margin:0 0 0 310px;min-height:270px;min-width:calc(100% - 310px);position:relative}@media screen and (max-width:950px){.main-column .top-wrapper{float:none;margin:0;min-height:0}}.main-column .top-container{margin:5px 0}.rating_com{margin-top:4px;font-size:14px;display:inline-block}.profile-com{user-select:none;cursor:pointer}.profile-com:hover{opacity:.75}.mid-wrapper{display:inline-block;width:calc(100% - 100px);margin-top:.3rem}.title_com{color:#333;font-size:26px;font-weight:400;line-height:30px;word-wrap:break-word}.title_com>.subtitle{font-size:14px;line-height:16px;display:inline-block;margin-top:6px;color:#666}.address_com,.title_com,.web_com{margin:0}#content .address_com{color:#444;font-size:15px;line-height:18px}#content .address_com h2{font-size:1.1rem;margin:.2rem 0}#phone-wrapper{background-color:#0166da;font-size:12px;margin:4px auto;padding:4px 0;text-align:center;display:none;max-width:320px}#phone-wrapper a,#phone-wrapper>span{display:block;color:#fff}#phone-wrapper a{padding:8px 0}.phone-number{font-size:24px;font-weight:700}.map-com,.tlf_com{font-weight:700;text-align:center;display:inline-block;width:96px;margin-top:.3rem}.map-com>i,.tlf_com>i{font-size:32px}.map-com span,.tlf_com span{line-height:20px;font-size:15px;display:block}.tlf_com>i{background-color:#5fbe4a;border-radius:50px;color:#fff;font-size:25px;height:40px;line-height:40px;text-shadow:-1px 1px #666;width:40px}.tlf_com span{font-size:12px;font-weight:400;margin-top:4px}.map-com i{font-size:24px}#gmap{height:300px;width:100%;display:none;margin:10px auto}@media (max-width:46.865em){#phone-wrapper{max-width:100%}#gmap{height:250px}}.web_com{font-size:14px;display:block;max-width:200px;overflow:hidden}.web_com:after{display:table;clear:both}@media (max-width:46.865em){.web_com{max-width:250px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:auto}}.btn-group{text-align:center;font-weight:700;font-size:14px;line-height:16px}.btn-group>li{display:inline-block;margin:0 2%;width:21%}.btn-group i{display:block;font-size:20px}.content-block,.tags{font-size:15px;line-height:20px}.btn-group span{display:inline-block;padding-top:8px;outline:0}.btn-group a{display:inline-block;vertical-align:top}.btn-group a:hover{text-decoration:none}.btn-group a:hover span{text-decoration:underline}.action-disabled{color:gray;cursor:not-allowed}.tags,.tags>a{color:#888}.modal-message>ul>li,.sezion .icon,.stars-wrapper .star.selected,.stars-wrapper.leave-rating .star:hover,.swiper-container .controls>div.next,.swiper-container .controls>div.prev{cursor:pointer}.action-disabled:hover{text-decoration:none}.action-disabled:hover span{text-decoration:none!important}.tags{margin:5px 0}.tags>a:hover{color:#aaa}.content-block-wrapper{overflow:hidden;width:100%}.content-block-wrapper h2{margin:2rem auto 1rem}.content-block-wrapper.additional-info{width:auto;overflow:hidden}.content-block br{display:block;margin:5px 0;line-height:20px;content:" "}.social-media{text-transform:capitalize;font-size:14px}@media (max-width:46.865em){.content-block-wrapper.additional-info{min-height:0;overflow:auto}.social-media{text-align:center;font-size:14px}}.social-media>li{display:inline-block;margin-bottom:4px;margin-right:20px}.social-media>li i{color:#aaa;font-size:22px}@media (max-width:46.865em){.social-media>li{margin-right:0}.social-media>li i{font-size:20px}.social-media>li:first-child:nth-last-child(1){width:100%}.social-media>li:first-child:nth-last-child(2),.social-media>li:first-child:nth-last-child(2)~li,.social-media>li:first-child:nth-last-child(4),.social-media>li:first-child:nth-last-child(4)~li,.social-media>li:first-child:nth-last-child(6),.social-media>li:first-child:nth-last-child(6)~li{width:49%}.social-media>li:first-child:nth-last-child(3),.social-media>li:first-child:nth-last-child(3)~li,.social-media>li:first-child:nth-last-child(5),.social-media>li:first-child:nth-last-child(5)~li,.social-media>li:first-child:nth-last-child(6),.social-media>li:first-child:nth-last-child(6)~li,.social-media>li:first-child:nth-last-child(7),.social-media>li:first-child:nth-last-child(7)~li,.social-media>li:first-child:nth-last-child(9),.social-media>li:first-child:nth-last-child(9)~li{width:32%}}.social-videos{font-size:14px}.social-videos>li{width:100%}.social-videos>li>a{display:inline-block;max-width:90%;overflow:hidden}.social-videos>li>a>i{color:#8a8a8a;font-size:22px;margin:auto 6px}.sezion{margin:10px auto 20px;position:relative}.sezion .icon{position:absolute;top:50%;left:50%;z-index:100;font-size:4.7em;margin-left:-.5em;margin-top:-.5em;color:#000;opacity:.8}.sezion .icon:hover{color:#cc181e;opacity:1}.sezion iframe{z-index:300}.sezion iframe,.sezion img{display:block;max-height:320px;max-width:100%;border:2px solid #dadada;position:relative;margin:0 auto}.swiper-container{height:auto;max-height:250px;max-width:100%;padding:0}@media (max-width:46.865em){.swiper-container{max-height:180px}}.swiper-container.ie{width:200px}.swiper-container .swiper-slide.compat-object-fit{background-size:cover;background-position:center center}.swiper-container img{display:block;margin:0 auto;max-height:200px;width:100%;object-fit:scale-down}@media (max-width:46.865em){.swiper-container img{max-height:130px}}.swiper-container .controls{margin:10px auto 20px;font-weight:700;text-align:center}.swiper-container .controls>div{display:inline-block;width:30%}.swiper-container .current-image{color:#aaa}.carousel-images .carousel-wrapper{height:12.5rem}.carousel-images .carousel-wrapper .carousel>img{max-height:10rem;margin-right:20px;cursor:pointer;border:1px solid transparent}.carousel-images .carousel-wrapper .carousel>img:hover{border-color:#98c9f2}table.com-timetable{border-collapse:collapse;border-spacing:0;width:100%}table.com-timetable td,table.com-timetable th{text-align:left;padding:4px;font-size:12px}.fake-ad,.modal-bck,.payment-methods i,.top-ad-mobile{text-align:center}table.com-timetable th{background-color:#E1E1E1}table.com-timetable td{background-color:#E8E8E8;color:#555;line-height:16px}table.com-timetable .blank{background-color:transparent}.info-details{font-size:14px;line-height:18px;margin:8px auto}.closed-hd-mark{font-weight:700;color:#000;font-size:12px}#comments-title span,.star{font-weight:400}.payment-methods i{min-width:22px;margin-right:4px;font-size:18px;color:#787878}.payment-methods>li{font-size:15px}#content .related-lateral{font-size:.8rem}#content .related-lateral h2{font-size:1rem;text-transform:uppercase}#content .related-lateral ul.related li{border-top:1px dashed #e4e4e4;padding:12px;position:relative}#content .related-lateral ul.related li h4{font-weight:400;font-size:1.1rem;line-height:20px;margin:0 0 5px}#content .related-lateral ul.related li p{color:#444;line-height:16px;margin:0;overflow:hidden;text-overflow:ellipsis}.star{display:inline-block;font-family:FontAwesome;font-style:normal}.star:before{color:#b7b7b7;content:"";padding-right:5px}.stars-wrapper{display:inline-block;font-size:18px}.stars-wrapper.small{font-size:16px}.stars-wrapper.small .star:before{padding-right:0}.stars-wrapper .star.selected:before,.stars-wrapper .star.selected~.star::before,.stars-wrapper.leave-rating .star:hover:before,.stars-wrapper.leave-rating .star:hover~.star::before{color:gold;content:""}.comments-wrapper{margin:20px auto}.comment-header{margin:4px auto;font-size:14px}.comment-author{color:#444}.comment-date{font-style:normal;font-size:13px;float:right;color:#7a7a7a}.comment-text{color:#474747;font-size:14px;line-height:20px;margin:4px auto}.leave-comment-wrapper{margin:1rem auto 0;position:relative;padding:1rem;width:100%;z-index:1}.leave-comment-wrapper .rating{width:100%;margin-bottom:.6rem;font-size:14px;font-weight:700;display:inline-block}.leave-comment-wrapper .rating>span{color:#555;display:inline-block}.leave-comment-wrapper .rating .counter{color:#0066d5;display:block;font-size:12px;padding:.4rem 0}.leave-comment-wrapper .rating .counter.exceeded{color:#e1474e}#send_email_wrapper>form h4{font-size:1.4rem;text-align:center;font-weight:400;margin:1rem auto}#send_email_wrapper>form label{font-weight:400}#send_email_wrapper>form .width_50p input{width:100%}#send_email_wrapper>form .textarea-wrapper{margin:auto 10px}#send_email_wrapper>form .textarea-wrapper textarea{height:120px}#send_email_wrapper>form #privacy_accept>input{vertical-align:middle}.comment-login{float:left}.comment-login.right{float:right}@media (max-width:46.865em){#send_email_wrapper{font-size:80%}#send_email_wrapper .btn{min-width:0;margin:1rem auto}.comment-login,.comment-login.right{float:none}}.sticky-ad-wrapper{margin-top:10px}#sticky-ad-ficha{width:300px;height:600px}.sticky-ad{display:none;position:absolute;width:0;height:0;z-index:50;margin-top:34px;margin-left:1010px}.fake-ad{display:flex;margin:10px auto;position:relative;max-width:100%}.top-ad-pc{float:left;left:0;position:absolute;width:300px}@media screen and (min-width:950px){.top-ad-pc{margin-top:10px!important}}.top-ad-mobile{margin:20px auto 0}@media (max-width:23.4275em){.top-ad-mobile{margin-left:-.6rem;margin-right:-.6rem}}@media (min-width:46.875em){.top-ad-mobile{display:none}}.bottom-ad,.mid-ad{float:left;margin:20px 20px 10px 0}@media (max-width:46.865em){.top-ad-pc{display:none}.bottom-ad,.mid-ad{float:none;margin:10px auto}}@media screen and (min-width:750px) and (max-width:950px){.ad-media-fix,.bottom-ad,.mid-ad,.top-ad-pc{float:none;position:relative;display:block;margin:0 auto;width:300px}}.ad-wrapper{margin-top:20px}#link_block_top{display:block;width:768px;height:20px;margin:8px 0 0}#link_block_left{display:block;width:160px;height:90px;margin:10px}#link_block_bottom{display:block;width:468px;height:20px;margin:10px 0}.company-profile-wrapper.nl .tlf_com span{font-size:14px}@media (max-width:46.865em){#link_block_bottom{width:200px;height:90px;margin:10px auto}.company-profile-wrapper.nl .tlf_com span{line-height:16px;font-size:13px}.company-profile-wrapper.sv .rating_com{font-size:12px}.company-profile-wrapper.sv .tlf_com span{line-height:16px;font-size:14px}.company-profile-wrapper.sv .btn-group{font-size:13px}.company-profile-wrapper.pl .btn-group>li{margin:2%;width:46%}}.company-profile-wrapper.fr .map-com,.company-profile-wrapper.fr .tlf_com{margin-top:0}@media (max-width:46.865em){.company-profile-wrapper.fr .btn-group>li{margin:2%;width:46%}}.company-profile-wrapper.CL .web_com,.company-profile-wrapper.IN .web_com{font-size:16px}.modal-bck{position:fixed;z-index:30;display:none;top:-100px;left:-100px;width:3000px;height:3000px}.modal-message{background-color:#fff;border:1px solid #aaa;border-radius:3px;box-shadow:0 2px 40px -10px #000;left:50%;text-align:left;z-index:990;width:750px;max-height:calc(100% - 40px);position:fixed;top:50%;transform:translate(-50%,-50%)}@media (max-width:46.865em){.modal-message{width:300px;line-height:1.5em;font-size:.85em}}.modal-message .close{float:right;background-color:#eaeaea;border:1px solid #a3a3a3;color:#333;display:inline-block;height:22px;margin:6px;text-align:center;width:24px}.modal-message .modal-message-title{border-bottom:1px solid #d8d8d8;display:block;font-size:1.2em;font-weight:700;margin:10px 0;padding-bottom:5px;text-align:center}.modal-message>ul{padding:10px 10px 40px;text-align:center}@media (max-width:46.865em){.modal-message>ul{padding:10px 40px 40px}}.modal-message>ul>li{font-size:90%;background:#f8f8f8;box-shadow:0 0 0 1px #cacaca;border-radius:3px;box-sizing:border-box;display:inline-block;margin:0 1%;padding:5px;width:45%;border-bottom:2px solid transparent}.modal-message>ul>li:hover{border-bottom-color:#0066d5}.modal-message>ul>li .title{color:#444;font-size:1.1em;font-weight:700;margin-bottom:0}.modal-message>ul>li .subtitle{color:#666;font-size:.9em;margin:0}.modal-message>ul>li i{color:#0066d5}.modal-message>ul.three-options>li{width:30%}@media (max-width:46.865em){.modal-message>ul.three-options li,.modal-message>ul>li{width:100%;margin:0 0 20px}}.premium-company .main-column{margin:0}.premium-company .main-column .logo-wrapper{margin:0 20px 0 0;max-height:160px;max-width:200px;text-align:center;vertical-align:middle;display:inline-block}.premium-company .main-column .logo-wrapper img{max-width:100%;max-height:200px;border-radius:1rem;border:1px solid #e8e8e8;background-color:#fff}@media (max-width:46.865em){.premium-company .main-column .logo-wrapper{margin:10px auto;max-height:160px;max-width:none;display:block}.premium-company .main-column .logo-wrapper img{max-height:120px}}.premium-company .main-column .data-wrapper{vertical-align:middle;display:inline-block;width:calc(100% - 225px)}@media (max-width:46.865em){.premium-company .main-column .data-wrapper{width:100%;display:block}}.premium-company .main-column .top-wrapper{float:none;margin:0;min-height:0}.premium-company .title-module{padding:0 20px 0 0;float:left;width:55%}.premium-company .address-module{width:45%;padding:0 0 0 20px;border-left:1px solid #d8d8d8;float:right}@media (max-width:46.865em){.premium-company .address-module,.premium-company .title-module{padding:0;width:100%;margin:10px auto;border:0}.premium-company .width_50p{padding:0}}.premium-company .rating_com{margin-top:0}.premium-company .address_com,.premium-company .title_com,.premium-company .web_com{margin:0!important;min-height:0}.premium-company #gmap{height:200px}.premium-company .phone-number{display:block}.premium-company #phone-wrapper{display:block;margin:4px 0;max-width:none}.premium-company #phone-wrapper a{display:inline-block}        </style>
+    </head>
+<body class="PK">
+
+
+    
+
+<div class="header-message hide success text-center" onclick="$(this).hide();">
+    <span></span>
+    <a href="javascript:void(0);" onclick="$(this).parent().hide();" class="close"><i class="icon-close"></i></a>
+</div>
+<div id="bck-nearby-permissions" style="display: none;" onclick="this.style.display = 'none';"></div>
+
+
+<div id="main-wrapper">
+        
+<div id="wp_owner_info" data-init="nok"></div>
+
+
+<div id="send_email_wrapper" data-id="132025" style="display:none;"></div>
+
+
+<div class="modal-bck modal-message-bck">
+    <div class="modal-message">
+        <a href="javascript:void(0);" onclick="$('.modal-message-bck').hide();" class="close"><i class="icon-close"></i></a>
+        <span class="modal-message-title">Select an option:</span>
+
+        <ul class="three-options">
+            
+            <li href="#comments" data-offset="-50" class="scrollTo eventa" onclick="$('.modal-message-bck').hide(); $('#textarea_comment').trigger('focus')" data-id="opinar_bifurc" data-com="132025">
+                <div><i class="icon-comment icon-3x icon-fw"></i></div>
+                <div>
+                    <p class="title">Leave your opinion</p>
+                    <p class="subtitle">Everybody will see it</p>
+                </div>
+            </li>
+
+                        <li class="show_owner_info eventa" onclick="$('.modal-message-bck').hide();" data-id="anadir_datos_bifurc" data-com="132025">
+                <div><i class="icon-briefcase icon-3x icon-fw"></i></div>
+                <div>
+                    <p class="title">Claim your business</p>
+                    <p class="subtitle">Take control of your business</p>
+                </div>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+<div id="main-menu" class="overflow-menu hide">
+    <div class="menu-wrapper">
+        <a href="javascript:void(0);" onclick="hide_header_menu('#main-menu');" class="close-menu">
+            <i class="icon-close icon-lg"></i>
+        </a>
+
+        <span href="https://www.infoisinfo.com.pk" class="logo"></span>
+
+        <div class="menu-button-wrapper text-center hide-on-logged">
+            <div>
+                <a href="https://www.infoisinfo.com.pk/myaccount/login" rel="nofollow" class="btn red">Log in</a>
+            </div>
+
+            <hr>
+
+            <div>
+                <a href="https://www.infoisinfo.com.pk/myaccount/register" rel="nofollow" class="btn light-gray">Sign up</a>
+            </div>
+        </div>
+
+        <div class="menu-button-wrapper text-center show-on-logged">
+            <p>
+                Welcome back, <span class="fill-username"></span>            </p>
+            <div>
+                <a href="https://www.infoisinfo.com.pk/myaccount/edit" rel="nofollow" class="btn green">User settings</a>
+            </div>
+
+            <br>
+
+            <div>
+                <a href="https://www.infoisinfo.com.pk/myaccount/edit?#p.company--a.display_companies--order.slug_com" rel="nofollow" class="btn light-gray">Manage companies</a>
+            </div>
+
+            <hr>
+
+            <div>
+                <a href="https://www.infoisinfo.com.pk/myaccount/logout" rel="nofollow" class="logout-button btn light-gray hollow">Log out</a>
+            </div>
+        </div>
+
+        <div class="footer text-center">
+            <span class="title">Do you own a business?</span>
+            <span class="subtitle">We help you grow it</span>
+
+            <a href="https://www.infoisinfo.com.pk/myaccount/registerbusiness" rel="nofollow" class="btn blue text-upper strong">Add your company</a>
+
+            <div class="city-skyline"></div>
+        </div>
+    </div>
+
+    <div class="background" onclick="hide_header_menu('#main-menu');"></div>
+</div>
+<div id="search-menu" class="overflow-menu search hide">
+    <div class="menu-wrapper">
+        <a href="https://www.infoisinfo.com.pk" class="logo"></a>
+
+
+        <div class="clearfix" style="max-width: 300px; margin: 1rem auto 0;">
+            <div class="clearfix">
+                <a href="javascript:void(0);" class="btn hollow gray small pull-right" onclick="hide_header_menu('#search-menu');">
+                    <i class="icon-close icon-lg"></i>
+                    Close                </a>
+            </div>
+
+
+            <form class="search text-center" action="https://www.infoisinfo.com.pk/search/" method="get" accept-charset="utf-8" style="margin-top: 1rem;">
+                <input type="text" class="input" name="q" value=""
+                       placeholder="What are you looking for? e.g. hotel, furniture, banks"/>
+
+                <input type="text" class="input" name="ql"
+                       value=""
+                       placeholder="Where? (city or province)"/>
+
+                <div class="submit-wrapper">
+                    <button class="btn blue text-upper eventa" data-id="btn_search"><b>Search</b></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="background" onclick="hide_header_menu('#search-menu');"></div>
+</div>
+
+<header>
+    <a href="javascript:void(0);" onclick="show_header_menu('#main-menu');" class="black pull-left nav-header"><i class="icon-bars"></i></a>
+    <a href="javascript:void(0);" onclick="show_header_menu('#search-menu');" class="show-search-menu black nav-header pull-right"><i class="icon-search"></i></a>
+
+    <a href="https://www.infoisinfo.com.pk" class="logo-search">InfoisInfo Pakistan</a>
+</header>
+<main id="main_contt" >
+    
+    
+    
+<div itemprop="breadcrumb" class="breadcrumbs">
+<p class="company-breadcrumb-top" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+  <a itemprop='url' href="https://www.infoisinfo.com.pk"><span itemprop="title">Infoisinfo</span></a>
+  >
+  <a itemprop="url" href="https://khyber-pakhtunkhwa-province.infoisinfo.com.pk"><span itemprop="title">Companies Khyber Pakhtunkhwa </span></a> Province  >
+  <a itemprop="url" href="https://peshawar.infoisinfo.com.pk"><span itemprop="title">Companies Peshawar</span></a>
+
+
+ 
+    <span class="more_breadcrumb">
+        | <span class="show-more-breadcrumb">[+]</span>
+    </span>
+</p>
+
+
+
+<p class="company-breadcrumb-bottom show_on_mobile hide" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+
+
+
+    <a itemprop="url" href="https://www.infoisinfo.com.pk/search/medical-and-scientific-services"><span itemprop="title">Medical and Scientific Services Pakistan</span></a>
+  >
+  
+  
+    
+
+          <a itemprop="url" href="https://khyber-pakhtunkhwa-province.infoisinfo.com.pk/search/medical-and-scientific-services"><span itemprop="title">Medical and Scientific Services Khyber Pakhtunkhwa </span></a> Province >
+    
+
+          <a itemprop="url" href="https://peshawar.infoisinfo.com.pk/search/medical-and-scientific-services"><span itemprop="title">Medical and Scientific Services Peshawar</span></a> >
+    
+    
+  
+
+
+
+
+
+      <a itemprop="url" href="https://www.infoisinfo.com.pk/search/health">Health Pakistan</a> >
+  
+  
+    
+          <a itemprop="url" href="https://khyber-pakhtunkhwa-province.infoisinfo.com.pk/search/health">Health Khyber Pakhtunkhwa </a> Province >
+    
+          <a itemprop="url" href="https://peshawar.infoisinfo.com.pk/search/health"><span itemprop="title">Health Peshawar</span></a> >
+    
+      
+
+  <strong>Zaynoon Pharmaceuticals (pvt) Ltd. Peshawar</strong>
+
+</p>
+</div>
+
+    <div id="content" data-id="132025" class="company-profile-wrapper PK en">
+
+        <script>
+            console.log('display');
+        </script>
+
+        
+        <div class="left-column">
+            <div class="related-lateral">
+                <div>
+    <h2 id="related-module">Related categories</h2>
+
+        <div id="readmore-related-categories" class="flexible filter closed">
+        
+        <ul class="related">
+
+            
+            
+                                    
+                
+
+
+                <li>
+                    <h4>Medical</h4>
+
+                    
+
+
+                                            <p class="list-like">
+
+                            
+                                                        <a href="https://khyber-pakhtunkhwa-province.infoisinfo.com.pk/search/medical"
+                               class="eventa"
+                               data-id="filtro_relacionados">Medical in Khyber Pakhtunkhwa                              </a>
+                             Province                            
+
+                        </p>
+                    
+                    
+                    <p class="list-like">
+
+                      
+                                            <a href="https://www.infoisinfo.com.pk/search/medical" class="eventa" data-id="filtro_relacionados">Medical in Pakistan</a>
+                      
+                    </p>
+
+                    
+
+                </li>
+
+            
+                
+
+
+                <li>
+                    <h4>Pharmacy</h4>
+
+                    
+
+
+                                            <p class="list-like">
+
+                            
+                                                        <a href="https://khyber-pakhtunkhwa-province.infoisinfo.com.pk/search/pharmacy"
+                               class="eventa"
+                               data-id="filtro_relacionados">Pharmacy in Khyber Pakhtunkhwa                              </a>
+                             Province                            
+
+                        </p>
+                    
+                    
+                    <p class="list-like">
+
+                      
+                                            <a href="https://www.infoisinfo.com.pk/search/pharmacy" class="eventa" data-id="filtro_relacionados">Pharmacy in Pakistan</a>
+                      
+                    </p>
+
+                    
+
+                </li>
+
+            
+                
+
+
+                <li>
+                    <h4>Hospital</h4>
+
+                    
+
+
+                                            <p class="list-like">
+
+                            
+                                                        <a href="https://khyber-pakhtunkhwa-province.infoisinfo.com.pk/search/hospital"
+                               class="eventa"
+                               data-id="filtro_relacionados">Hospital in Khyber Pakhtunkhwa                              </a>
+                             Province                            
+
+                        </p>
+                    
+                    
+                    <p class="list-like">
+
+                      
+                                            <a href="https://www.infoisinfo.com.pk/search/hospital" class="eventa" data-id="filtro_relacionados">Hospital in Pakistan</a>
+                      
+                    </p>
+
+                    
+
+                </li>
+
+            
+                
+
+
+                <li>
+                    <h4>Pharma</h4>
+
+                    
+
+
+                                            <p class="list-like">
+
+                            
+                                                        <a href="https://khyber-pakhtunkhwa-province.infoisinfo.com.pk/search/pharma"
+                               class="eventa"
+                               data-id="filtro_relacionados">Pharma in Khyber Pakhtunkhwa                              </a>
+                             Province                            
+
+                        </p>
+                    
+                    
+                    <p class="list-like">
+
+                      
+                                            <a href="https://www.infoisinfo.com.pk/search/pharma" class="eventa" data-id="filtro_relacionados">Pharma in Pakistan</a>
+                      
+                    </p>
+
+                    
+
+                </li>
+
+            
+                
+
+
+                <li>
+                    <h4>Beauty</h4>
+
+                    
+
+
+                                            <p class="list-like">
+
+                            
+                                                        <a href="https://khyber-pakhtunkhwa-province.infoisinfo.com.pk/search/beauty"
+                               class="eventa"
+                               data-id="filtro_relacionados">Beauty in Khyber Pakhtunkhwa                              </a>
+                             Province                            
+
+                        </p>
+                    
+                    
+                    <p class="list-like">
+
+                      
+                                            <a href="https://www.infoisinfo.com.pk/search/beauty" class="eventa" data-id="filtro_relacionados">Beauty in Pakistan</a>
+                      
+                    </p>
+
+                    
+
+                </li>
+
+            
+                
+
+
+                <li>
+                    <h4>Medical Equipments</h4>
+
+                    
+
+
+                                            <p class="list-like">
+
+                            
+                                                        <a href="https://khyber-pakhtunkhwa-province.infoisinfo.com.pk/search/medical-equipments"
+                               class="eventa"
+                               data-id="filtro_relacionados">Medical Equipments in Khyber Pakhtunkhwa                              </a>
+                             Province                            
+
+                        </p>
+                    
+                    
+                    <p class="list-like">
+
+                      
+                                            <a href="https://www.infoisinfo.com.pk/search/medical-equipments" class="eventa" data-id="filtro_relacionados">Medical Equipments in Pakistan</a>
+                      
+                    </p>
+
+                    
+
+                </li>
+
+            
+                
+
+
+                <li>
+                    <h4>Pharmaceutical</h4>
+
+                    
+
+
+                                            <p class="list-like">
+
+                            
+                                                        <a href="https://khyber-pakhtunkhwa-province.infoisinfo.com.pk/search/pharmaceutical"
+                               class="eventa"
+                               data-id="filtro_relacionados">Pharmaceutical in Khyber Pakhtunkhwa                              </a>
+                             Province                            
+
+                        </p>
+                    
+                    
+                    <p class="list-like">
+
+                      
+                                            <a href="https://www.infoisinfo.com.pk/search/pharmaceutical" class="eventa" data-id="filtro_relacionados">Pharmaceutical in Pakistan</a>
+                      
+                    </p>
+
+                    
+
+                </li>
+
+            
+                
+
+
+                <li>
+                    <h4>Equipment</h4>
+
+                    
+
+
+                                            <p class="list-like">
+
+                            
+                                                        <a href="https://khyber-pakhtunkhwa-province.infoisinfo.com.pk/search/equipment"
+                               class="eventa"
+                               data-id="filtro_relacionados">Equipment in Khyber Pakhtunkhwa                              </a>
+                             Province                            
+
+                        </p>
+                    
+                    
+                    <p class="list-like">
+
+                      
+                                            <a href="https://www.infoisinfo.com.pk/search/equipment" class="eventa" data-id="filtro_relacionados">Equipment in Pakistan</a>
+                      
+                    </p>
+
+                    
+
+                </li>
+
+            
+                
+
+
+                <li>
+                    <h4>Health Equipments</h4>
+
+                    
+
+
+                                            <p class="list-like">
+
+                            
+                                                        <a href="https://khyber-pakhtunkhwa-province.infoisinfo.com.pk/search/health-equipments"
+                               class="eventa"
+                               data-id="filtro_relacionados">Health Equipments in Khyber Pakhtunkhwa                              </a>
+                             Province                            
+
+                        </p>
+                    
+                    
+                    <p class="list-like">
+
+                      
+                                            <a href="https://www.infoisinfo.com.pk/search/health-equipments" class="eventa" data-id="filtro_relacionados">Health Equipments in Pakistan</a>
+                      
+                    </p>
+
+                    
+
+                </li>
+
+            
+        </ul>
+
+            </div>
+    <a class="flexible related" href="javascript:void(0);" data-elm="related-categories"><i
+                class="icon-angle-down"></i> View all</a>
+    </div>
+            </div>
+
+                            <div id="sticky-ad-ficha-wrapper" class="ad clearfix pull-left sticky sticky-ad-wrapper">
+    <ins id="sticky-ad-ficha" class="adsbygoogle inline-block"
+         data-ad-client="ca-pub-3538977080443162"
+         data-ad-slot="2047974350"></ins>
+</div>
+<script type='text/javascript'>
+    var width = window.innerWidth || document.documentElement.clientWidth;
+    var height = window.innerHeight || document.documentElement.clientHeight;
+
+    if (width > 1050) {
+        console.log('pushing sticky ad');
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+    else {
+        
+        hide_ad('sticky-ad-ficha-wrapper', 'sticky-ad-ficha');
+    }
+</script>                    </div>
+
+
+        
+        <div class="main-column relative">
+                                        
+
+            <div id="company-top-wrapper" class="top-wrapper">
+                <div class="top-container clearfix">
+                    <div class="pull-left">
+                        <a href="#comments" data-offset="-50" class="scrollTo rating_com eventa" data-id="ver_opinion_estrellas" data-com="132025">
+                            
+
+                            <div class="stars-wrapper small">
+                                <span class="star " title="Rating" data-rating="5" ></span
+                                ><span class="star " title="Rating" data-rating="4" ></span
+                                ><span class="star " title="Rating" data-rating="3" ></span
+                                ><span class="star " title="Rating" data-rating="2" ></span
+                                ><span class="star " title="Rating" data-rating="1" ></span>
+                            </div>
+                        </a>
+
+                                                                            
+                        <a href="#comments" data-offset="-50" class="scrollTo rating_com eventa" data-id="ver_opinion_numero" data-com="132025">(0 comments)</a>
+                    </div>
+
+                    <div class="pull-right relative">
+                        <a onclick="$('.modal-message-bck').show();" href="javascript:void(0);" class="button-pencil eventa" data-id="abrir_bifurc" data-com="132025">
+                            <span>Send message</span> <i class="icon-pencil"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="relative clearfix">
+
+                    <div class="mid-wrapper">
+                                                    <h1 class="title_com name">Zaynoon Pharmaceuticals (pvt) Ltd. <br /><span class="subtitle">Health in Peshawar</span></h1>
+                        
+
+
+
+
+                                            </div>
+
+                                            <a id="phonet" href="javascript:void(0);" class="tlf_com show-phone eventa">
+                            <i class="icon-phone"></i>
+                            <span>Show phone number</span>
+                        </a>
+                                    </div>
+
+                                    <div id="phone-wrapper" class="phone" data-x="MTMyMDI1LS16YXlub29uLXBoYXJtYWNldXRpY2Fscy1wdnQtbHRk">
+
+                        
+                                                
+                        <span class="reminder-phone">Remember you found this company at Infoisinfo</span>
+                        <span class="phone-number phone" type="MAIN">91-581493?</span>
+
+                        
+
+                    </div>
+                
+                                    <div class="top-ad-mobile">
+                        
+<!-- Movil Superior 320x100 -->
+<div id="ad-company-top-mobile-wrapper" class="ad company-top-mobile clearfix">
+    <ins id="ad-company-top-mobile" class="adsbygoogle PK"
+         data-ad-client="ca-pub-3538977080443162"
+         data-ad-slot="3887883950"></ins>
+
+    <script>
+        var width = window.innerWidth || document.documentElement.clientWidth;
+        var b_trigger_ad = false;
+
+        
+        if(document.referrer.indexOf("/search/") !== -1 &&
+                (document.referrer.indexOf(".infoisinfo") !== -1 || document.referrer.indexOf(".infodats") !== -1 || document.referrer.indexOf(".localhost") !== -1)) {
+            hide_ad('ad-company-top-mobile-wrapper', 'ad-company-top-mobile');
+
+            var a_data = document.referrer.split("/search/");
+            var s_data = a_data[1].split('/')[0];
+
+            var s_query = s_data.replace(/(_|\-)/g, ' ');
+            s_query.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+
+            b_trigger_ad = true;
+            document.getElementById('company-top-wrapper').style.cssText = "margin: 0; min-width:0; min-height:0; float:none;";
+        }
+        else if (width > 750) {
+            hide_ad('ad-company-top-mobile-wrapper', 'ad-company-top-mobile');
+        }
+        else {
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        }
+    </script>
+</div>
+                    </div>
+                
+
+                
+                
+<script type="text/javascript">
+    var width = window.innerWidth || document.documentElement.clientWidth;
+    var n_number = 2;
+
+    function render_ads(s_pub_id, s_channel, s_query, s_lang, s_container, s_remove)
+    {
+                var s_ad_test = 'off';
+        
+        
+        var s_color = "F5F5F5";
+        var s_width = $('h2.title').width() + 'px';
+
+        var s_link_color = "0066D5";
+        
+        new google.ads.search.Ads({
+            "pubId": s_pub_id,
+            "query": s_query,
+            "channel": s_channel,
+            "hl": s_lang,
+            "adtest": s_ad_test
+        }, {
+            "container": s_container,
+            "number": n_number,
+            "width": s_width,
+            "fontFamily": "arial",
+            "fontSizeTitle": "17px",
+            "fontSizeDescription": "12px",
+            "fontSizeDomainLink": "12px",
+            "colorTitleLink": s_link_color,
+            "colorText": "777777",
+            "colorDomainLink": "008000",
+            "colorBackground": s_color,
+            "colorBorder": s_color,
+            "colorAdSeparator": "#d8d8d8",
+            "clickToCall": true,
+            "linkTarget": "_blank",
+            "longerHeadlines": true,
+            "sellerRatings": true,
+            "location": true
+
+            ,'noAdLoadedCallback':function(containerName, adsLoaded) {
+                if(!adsLoaded) {
+                    console.log('no ads');
+                    var o_div = document.getElementById(s_remove);
+                    o_div.parentNode.removeChild(o_div);
+                }
+            }
+        });
+    }
+
+    var timer;
+    function trigger_ads(s_query) {
+        timer = setInterval(function() {
+            if(typeof $ !== 'undefined') {
+                $('.min-wrapper').css('min-height', 0);
+                $('#ads_company_top_wrapper').show();
+                if(width > 750) {
+                    $('#ads_company_top_wrapper').css("margin-top", "20px");
+                }
+
+                $.getScript("//www.google.com/adsense/search/ads.js", function() {
+
+
+                  
+                  
+                    __tcfapi('addEventListener', 2, function(tcData, success) { 
+                      if (success) {
+                        if (tcData.gdprApplies) {
+                          if (tcData.eventStatus === 'tcloaded') {
+                            // We have consent, get the tcData string and do the ad request.
+                            // The example here is for Google publisher tag
+
+                            // print a debug message to the console 
+                            console.log('Debug: tcloaded');
+                            render_ads('pub-3538977080443162','3940591558+7472179556', s_query,'en','ads_company_top', 'ads_company_top_wrapper');
+                          } else if (tcData.eventStatus === 'useractioncomplete') {
+                            // The user gave consent through the UI, get the tcdata string and do the ad request.
+
+                            // print a debug message to the console 
+                            console.log('Debug: useractioncomplete');
+                            render_ads('pub-3538977080443162','3940591558+7472179556', s_query,'en','ads_company_top', 'ads_company_top_wrapper');
+
+
+                          } else {
+                            // print a debug message to the console
+                            console.log('Debug: tcData.eventStatus: ', tcData.eventStatus);
+                          }
+                        } else { 
+                          // gdpr does not apply
+                          // Most likely you want to make the ad request in this case 
+
+                          // print a debug message to the console 
+                          console.log('Debug: gdpr doesn\'t apply');
+                          render_ads('pub-3538977080443162','3940591558+7472179556', s_query,'en','ads_company_top', 'ads_company_top_wrapper');
+                        }
+                      }
+
+
+
+                      });
+
+                  
+
+
+
+                    
+
+
+                  
+
+
+                  
+
+
+
+
+
+                });
+
+                clearInterval(timer);
+            }
+        }, 50);
+    }
+
+    if(typeof(b_trigger_ad) !== undefined && b_trigger_ad === true) {
+        trigger_ads(s_query);
+    }
+
+</script>
+
+<div id="ads_company_top_wrapper" class="ad" style="display:none; border-top: 1px solid #d8d8d8; padding: 10px 0 0 !important; margin:10px auto 0">
+    <div id="ads_company_top"
+         style="font-weight: normal; text-align: center; padding: 0 !important;">
+    </div>
+</div>
+
+                <hr/>
+
+
+
+                <div class="relative clearfix">
+
+
+                    
+
+                    <div class="address_com address.address mid-wrapper">
+                        <h2>Address</h2>
+
+
+                                                    <span>27-28 B, Industrial Estate, Hayatabad.</span>
+
+<span class="address.city">Peshawar</span>,
+<span class="address.state">Khyber Pakhtunkhwa</span>.                                            </div>
+
+
+                    <div class="clearfix" style="height:20px;"></div>
+
+
+                                            <a rel="nofollow, noindex" target="_blank" class="map-comx map-triggerx eventa" data-id="mapt" href="https://www.google.com/maps/search/?api=1&query=33.994659,71.419022">
+                            <i class="icon-map-marker"></i>
+                            <span>Show map</span>
+                        </a>
+                                    </div>
+            </div>
+            
+            <div class="top-ad-pc ad-wrapper">
+            
+                            
+                
+<!-- PC Superior 300x250 -->
+<div id="ad-company-top-pc-wrapper" class="ad company-top clearfix" style="border:0px solid red;height:250px;width:350px;" >
+    <ins id="ad-company-top-pc_PK" class="adsbygoogle ad-company ficha-de-empresa-300250-peru-r PK"
+         data-ad-client="ca-pub-3538977080443162"
+         data-ad-slot="3887883950"></ins>
+
+    <script>
+        var width = window.innerWidth || document.documentElement.clientWidth;
+
+        
+        if (width <= 750 || (b_trigger_ad === true)) {
+            hide_ad('ad-company-top-pc-wrapper', 'ad-company-top-pc');
+        }
+        else {
+
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        }
+    </script>
+</div>
+                
+                        </div>
+
+            <div class="clearfix"></div>
+
+            <div class="relative clearfix">
+                
+                              
+
+                
+
+
+            </div>
+                        
+
+                            <div id="gmap"></div>
+            
+            <hr />
+
+            <div class="btn-group-wrapper">
+                <ul class="btn-group">
+                    <li>
+                        <a href="#comments" data-offset="-50" class="scrollTo eventa" data-id="ver_opiniones"><i class="icon-comment"></i> <span>Comments</span></a>
+                    </li
+                    ><li>
+                                                    <a href="javascript:void(0);" class="action-disabled" title="We don't have any social media account of this company"><i class="icon-link"></i> <span>Social networks</span></a>
+                                            </li
+                    ><li>
+                                                    <a href="javascript:void(0);" class="action-disabled" title="This business has no pictures or videos"><i class="icon-picture-o"></i> <span>Photos and videos</span></a>
+                                            </li
+                    ><li>
+                                                            <a href="javascript:void(0);" class="action-disabled" title="We don't have a contact email address for this business"><i class="icon-envelope"></i> <span>Send email</span></a>
+                                                </li>
+                </ul>
+            </div>
+
+            <hr />
+
+                            <div class="content-block-wrapper text-center">
+                    <h2  style="margin-top:4px;">Are you the owner or manager of this company?</h2>
+                    <div class="content-block">
+                        <a id="show_owner_info" data-nohover="true" href="javascript:void(0);" rel="nofollow" class="show_owner_info btn navy small eventa"
+                           data-title_com="WmF5bm9vbiBQaGFybWFjZXV0aWNhbHMgKHB2dCkgTHRkLg=="
+                           data-id="anadir_datos"
+                           data-id_com="132025">
+                            Take control of your business                        </a>
+                    </div>
+                </div>
+
+                <br>
+                <hr style="margin:10px auto 0">
+            
+            <div class="content-block-wrapper">
+                <h2 class="title">What you should know about Zaynoon Pharmaceuticals (pvt) Ltd.</h2>
+
+                                    <ins id="link_block_bottom" class="adsbygoogle"
+     data-ad-client="ca-pub-3538977080443162"
+     data-ad-slot="2338787159"
+     data-ad-format="link"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>                
+                
+<p class="tags">
+    
+        
+  
+      
+      
+          
+              <span>Medical in Peshawar</span>,       
+          
+              <span>Pharmacy in Peshawar</span>,       
+          
+              <span>Hospital in Peshawar</span>,       
+          
+              <span>Pharma in Peshawar</span>      
+          
+      
+          
+      
+          
+      
+          
+      
+          
+      
+            </p>
+
+                
+                                    <div class="content-block">
+                                                    <span class="description">ZAYNOON PHARMACEUTICALS (PVT) LTD. is located in Peshawar, Pakistan. If you have any questions, please contact us. Company is working in Medical equipment, Hospital pharmaceuticals business activities.</span>
+                                            </div>
+                
+
+
+                
+                                
+
+
+
+                
+                <h2 id="social">Social networks</h2>
+    <div class="content-block">
+        <span>We don't have any social media account of this company</span>
+    </div>
+
+
+
+
+                                    <div class="mid-ad ad-wrapper">
+                        
+<!-- PC/Movil Medio 300x250 -->
+<div id="ad-company-mid-pc-wrapper" class="ad company-mid clearfix">
+    <ins id="ad-company-mid-pc" class="adsbygoogle PK"
+         data-ad-client="ca-pub-3538977080443162"
+         data-ad-slot="5364617155"></ins>
+
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+                    </div>
+                
+                
+                
+
+
+                
+            </div>
+
+            
+                            <div class="content-block-wrapper">
+                            <h2 id="users-also-viewed">Other users also viewed:</h2>
+    <div class="content-block">
+
+        <div class="related-companies PK">
+            <ul>
+                                
+                    
+                    
+                                                                
+                    
+<li class="company  card eventa" data-tx="" data-id="ficha_competencia_no_destacado" data-com="150266" data-gx=""
+    data-href="https://swabi.infoisinfo.com.pk/card/nasarhamza-surgical-wholesale-shahmansoor-swabi-kpk/150266" data-externalid="0" data-provider="" >
+
+    <a class="view-company" href="https://swabi.infoisinfo.com.pk/card/nasarhamza-surgical-wholesale-shahmansoor-swabi-kpk/150266" title="Nasarhamza Surgical Wholesale Shahmansoor Swabi KPK - Swabi">
+
+                <i class="icon-phone pull-right icon-fw icon-lg"></i>
+        
+        <div class="ratings">
+                            <div class="stars-wrapper">
+                    <span class="star selected" title="Rating" data-rating="5" ></span
+                    ><span class="star " title="Rating" data-rating="4" ></span
+                    ><span class="star " title="Rating" data-rating="3" ></span
+                    ><span class="star " title="Rating" data-rating="2" ></span
+                    ><span class="star " title="Rating" data-rating="1" ></span>
+                </div>
+            
+                    </div>
+
+        <h2 class="title">
+            
+            <span class="title-com">Nasarhamza Surgical Wholesale Shahmansoor Swabi KPK</span><span> - Swabi</span>
+        </h2>
+
+        
+        
+        <p class="address">
+                                            <span class="streetAddress">Opposite judicial colony gate, Shahmansoor town Swabi KPK, Swabi</span>.
+                <span class="addressLocality">Swabi</span>.
+                                    <span class="addressState">Khyber Pakhtunkhwa</span>.
+                                                    </p>
+
+                    <p class="description">(((ناصرحمزہ سرجیکل ہول سیل شاہ منصور صوابی))) رابطہ نمبرات:(03139968155/03438867170)۔ پتہ:طلحہ مارکیٹ بلمقابل جوڈیشل کالونی نزد باچاخان میڈیکل کمپلیکس شاہ منصور ٹاون صوابی۔&hellip;</p>
+        
+        
+        
+    </a>
+</li>
+
+                                    
+                    
+                    
+                                                                
+                    
+<li class="company  card eventa" data-tx="" data-id="ficha_competencia_no_destacado" data-com="131636" data-gx=""
+    data-href="https://peshawar.infoisinfo.com.pk/card/rehman-medicine-company/131636" data-externalid="" data-provider="" >
+
+    <a class="view-company" href="https://peshawar.infoisinfo.com.pk/card/rehman-medicine-company/131636" title="Rehman Medicine Company - Peshawar">
+
+                <i class="icon-phone pull-right icon-fw icon-lg"></i>
+        
+        <div class="ratings">
+            
+                    </div>
+
+        <h2 class="title">
+            
+            <span class="title-com">Rehman Medicine Company</span><span> - Peshawar</span>
+        </h2>
+
+        
+        
+        <p class="address">
+                                            <span class="streetAddress">13/C, Cantonment Super Market, Cantt</span>.
+                <span class="addressLocality">Peshawar</span>.
+                                    <span class="addressState">Khyber Pakhtunkhwa</span>.
+                                                    </p>
+
+                    <p class="description">Company is working in Medical equipment, Hospital pharmaceuticals business activities. REHMAN MEDICINE COMPANY is located in Peshawar, Pakistan.</p>
+        
+        
+        
+    </a>
+</li>
+
+                                    
+                    
+                    
+                                                                
+                    
+<li class="company  card eventa" data-tx="" data-id="ficha_competencia_no_destacado" data-com="131378" data-gx=""
+    data-href="https://peshawar.infoisinfo.com.pk/card/nenza-pharmaceuticals-pvt-ltd/131378" data-externalid="" data-provider="" >
+
+    <a class="view-company" href="https://peshawar.infoisinfo.com.pk/card/nenza-pharmaceuticals-pvt-ltd/131378" title="Nenza Pharmaceuticals (pvt) Ltd. - Peshawar">
+
+                <i class="icon-phone pull-right icon-fw icon-lg"></i>
+        
+        <div class="ratings">
+            
+                    </div>
+
+        <h2 class="title">
+            
+            <span class="title-com">Nenza Pharmaceuticals (pvt) Ltd.</span><span> - Peshawar</span>
+        </h2>
+
+        
+        
+        <p class="address">
+                                            <span class="streetAddress">33-A, Industrial Estate, Hayatabad</span>.
+                <span class="addressLocality">Peshawar</span>.
+                                    <span class="addressState">Khyber Pakhtunkhwa</span>.
+                                                    </p>
+
+                    <p class="description">NENZA PHARMACEUTICALS (PVT) LTD. is located in Peshawar, Pakistan. If you have any questions, please contact us. Company is working in Medical equipment, Hospital pharmaceuticals&hellip;</p>
+        
+        
+        
+    </a>
+</li>
+
+                                                        </ul>
+
+            <div>
+                                                        
+                                        <a href="https://khyber-pakhtunkhwa-province.infoisinfo.com.pk/search/health" rel="nofollow" class="btn navy hollow eventa" data-id="vermasempresas">
+                        View more related companies                    </a>
+                                                </div>
+        </div>
+
+    </div>
+                </div>
+
+                                                            <div class="bottom-ad ad-wrapper">
+                            
+<!-- PC/Movil Inferior 300x250 -->
+<div id="ad-company-bottom-pc-wrapper" class="ad company-bottom clearfix">
+    <ins id="ad-company-bottom-pc" class="adsbygoogle PK"
+         data-ad-client="ca-pub-3538977080443162"
+         data-ad-slot="6841350358"></ins>
+
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+                        </div>
+                                                
+            
+            <div class="content-block-wrapper">
+                <h2 id="images">Photos and videos</h2>
+<div class="content-block">
+            <span>This business has no pictures or videos</span>
+    </div>            </div>
+
+            
+            
+              
+
+            
+            
+            <div class="content-block-wrapper">
+                <div id="comments">
+    <h2 id="comments-title">Reviews of Zaynoon Pharmaceuticals (pvt) Ltd. <span>(0)</span></h2>
+
+
+    
+    <div id="comment-wrapper" class="leave-comment-ajax"></div>
+</div>            </div>
+
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+</main>
+
+<div id="bottom-content">
+    <div class="register-company-component">
+    <h2 class="text-center">Do you own a business? <br> <span class="subheader">We help you grow it</span></h2>
+
+    <div class="video-component clearfix">
+                    <div class="iframe-wrapper eventa" data-id="video2_home">
+                <iframe class="home-video" src="https://www.youtube.com/embed/EUz6CsK_Css?rel=0&showinfo=0&autohide=1&vq=hd720&cc_lang_pref=en&cc_load_policy=1"></iframe>
+            </div>
+        
+        <div class="text-wrapper has-video text-center">
+            <p class="leading">
+                Get more clients, visibility and branding.                <br>
+                Let us help you achieve your targets and improve your business.            </p>
+
+            <a href="https://www.infoisinfo.com.pk/myaccount/registerbusiness" rel="nofollow" class="btn big blue text-upper"><b>Add your company</b></a>
+        </div>
+    </div>
+</div>
+    
+    <footer>
+    
+    <div class="combo-buttons show-on-mobile">
+        <a href="https://www.infoisinfo.com.pk/contact">Contact Infoisinfo <i class="icon-angle-down"></i></a>
+        <a href="https://www.infoisinfo.com.pk/terms">Legal Terms <i class="icon-angle-down"></i></a>
+        <a href="https://www.infoisinfo.com.pk/policy">Privacy policy <i class="icon-angle-down"></i></a>
+        <a href="https://www.infoisinfo.com.pk/cookies">Cookies policy <i class="icon-angle-down"></i></a>
+        <a href="https://www.infoisinfo.com.pk/faqs">FAQ (Frequent answers and questions) <i class="icon-angle-down"></i></a>
+    </div>
+
+    <div class="combo-buttons-pc clearfix hide-on-mobile">
+        <div>
+            <b>About us</b>
+            <a href="https://www.infoisinfo.org?lang=en" target="_blank">About us</a>            <a href="https://www.infoisinfo.com.pk/contact">Contact Infoisinfo</a>
+            <a href="https://www.infoisinfo.com.pk/style-book">Stylebook</a>
+        </div>
+
+
+        <div>
+            <b>FAQ</b>
+            <a href="https://www.infoisinfo.com.pk/faqs">FAQ</a>
+                    </div>
+
+
+        <div>
+            <b>Legal Info</b>
+            <a href="https://www.infoisinfo.com.pk/terms">Legal Terms</a>
+            <a href="https://www.infoisinfo.com.pk/policy">Privacy policy</a>
+            <a href="https://www.infoisinfo.com.pk/cookies">Cookies policy</a>
+        </div>
+
+
+                    </div>
+
+
+        
+    <div class="city-skyline"></div>
+
+    
+    <p class="copyright text-center">
+        &copy;
+                            <b><a href="https://www.infoisinfo.org?lang=en" style="color:inherit">Infoisinfo</a></b> 2010 - 2021                    <br>
+        All rights reserved    </p>
+</footer>
+</div>
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "LocalBusiness",
+  "name": "Zaynoon Pharmaceuticals (pvt) Ltd.",
+      "description": "ZAYNOON PHARMACEUTICALS (PVT) LTD. is located in Peshawar, Pakistan. If you have any questions, please contact us. Company is working in Medical equipment, Hospital pharmaceuticals business activities.",
+    
+  
+  
+      "address":  {
+    "@type": "PostalAddress",
+    "addressCountry": "PK",
+    "addressLocality": "Peshawar",
+        "name": "27-28 B, Industrial Estate, Hayatabad"      },
+        
+  
+      "geo": {
+  	"@type": "GeoCoordinates",
+    "latitude": "33.994659",
+    "longitude": "71.419022"
+  },
+      "hasOfferCatalog": [
+          ]
+}
+</script></div>
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle=window.adsbygoogle||[]).requestNonPersonalizedAds=1;</script>
+
+
+
+
+<script src="/skin/2017/js/en/script.min.js?20210616" type="text/javascript"></script>
+
+    
+
+<script type="text/javascript">
+    function cb_scroll_to_comment() {
+        $('#textarea_comment').focus();
+    }
+
+    function send_email_com(form) {
+        var error = false;
+
+        var $button = $('#button_send_email_com');
+        $button.prop('disabled', true);
+        $button.removeClass('eventa');
+
+        var s_url = "/ficha/json/send_form_com";
+
+        var $wrapper = $(form);
+
+        var message = $wrapper.find('p.message');
+
+        var email = $wrapper.find('[name="email_user"]').val();
+        var name_user = $wrapper.find('[name="name_user"]').val();
+        var message_user = $wrapper.find('[ name="message_user"]').val();
+        var id_com = $wrapper.parent().attr('data-id');
+        var captcha = $wrapper.find('[name="captcha"]').val();
+
+        $wrapper.find('input,textarea').each(function () {
+            if ($(this).val() == '') {
+                message.html(o_t.T_('Todos los campos son obligatorios')).addClass('error').removeClass('hide');
+                error = true;
+                return false;
+            }
+        });
+
+        if (error === true) {
+            $button.prop('disabled', false);
+            return false;
+        }
+
+        if ($wrapper.find('[name="privacy_policy"]').prop('checked') == false) {
+            message.html(o_t.T_('Para ponerte en contacto con esta empresa debes aceptar las condiciones del servicio.')).addClass('error').removeClass('hide');
+            $button.prop('disabled', false);
+            return false;
+        }
+
+        var o_data = {
+            email_user: email,
+            name_user: name_user,
+            message_user: message_user,
+            id_com: id_com,
+            captcha: captcha
+        };
+
+        // Codificamos los datos
+        var s_data = encode_b64_json(o_data);
+
+        $.ajax({
+            data: { base64: s_data },
+            type: 'POST',
+            dataType: 'json',
+            url: s_url,
+            success: function (o_res) {
+                if (o_res.s_valid == 'OK') {
+                    message.html(o_res.s_resp).removeClass('hide').addClass('success');
+                    $button.hide();
+                    $('#button_close_send_email').removeClass('pull-left').addClass('pull-right').text(o_t.T_('Volver'));
+                    $wrapper.find('.hide_on_success').hide();
+                }
+                else {
+                    message.html(o_res.s_resp).removeClass('hide').addClass('error');
+                    $button.prop('disabled', false);
+                }
+            }
+        });
+    }
+
+    function show_owner_info($elm) {
+        if ($elm.length > 0) {
+            var $wrapper = $('#wp_owner_info');
+
+            if($wrapper.data('init') == "ok") {
+                $wrapper.toggle();
+
+                if($wrapper.is(':visible')) {
+                    $.scrollTo($wrapper, 350);
+                }
+            }
+            else {
+                var o_data = {
+                    p: 'static_content',
+                    a: 'get_template',
+                    s_template: 'owner_info',
+                    a_vars: {
+                        n_id_com: $elm.data('id_com'),
+                        s_title_com: $elm.data('title_com')
+                    }
+                };
+
+                $.get('/ws/getp', o_data, function(o_res) {
+                    $wrapper.html(o_res.s_resp).show();
+                    $wrapper.data('init', 'ok');
+
+                    $('a.change_owner_form').click(function(e) {
+                        $('form.change_owner_form').toggleClass('hide');
+                    });
+
+                    $.scrollTo($wrapper, 350);
+                }, 'json');
+            }
+        }
+    }
+
+    function register_change_owner() {
+        var $register_change_owner = $('#register_change_owner');
+        var o_data = {
+            register_button: $register_change_owner.find('.register_button'),
+            message: $('.owner-info .message'),
+            email_user: $register_change_owner.find('[name="email_user"]').val(),
+            nick_user: $register_change_owner.find('[name="nick_user"]').val(),
+            pass_user: $register_change_owner.find('[name="pass_user"]').val(),
+            pass_user2: $register_change_owner.find('[name="pass_user2"]').val(),
+            privacy_policy: $register_change_owner.find('[name="privacy_policy"]'),
+            legal_chk: '0',
+            id_com: $register_change_owner.data('id_com'),
+            owner_type: $('input[name="owner_type"]:checked'),
+            b_error: false,
+
+            get_object: function() {
+                return {
+                    email_user: this.email_user,
+                    nick_user: this.nick_user,
+                    legal_chk: this.legal_chk,
+                    pass_user: hex_sha1(this.pass_user),
+                    id_com: this.id_com,
+                    owner_type: this.owner_type.val()
+                };
+            },
+
+            before: function () {
+                $register_change_owner.find('input').removeClass('error');
+                this.register_button.prop('disabled', true);
+
+                if(this.email_user == '') {
+                    this.message.html(o_t.T_('El campo email es obligatorio'));
+                    return this.b_error = true;
+                }
+                if (!isEmail(this.email_user)) {
+                    this.message.html(o_t.T_('El email introducido no es válido'));
+                    return this.b_error = true;
+                }
+                if (this.nick_user == '') {
+                    this.message.html(o_t.T_('El nombre de usuario es obligatorio'));
+                    return this.b_error = true;
+                }
+
+                if (this.pass_user == '') {
+                    this.message.html(o_t.T_('La contraseña es obligatoria'));
+                    return this.b_error = true;
+                }
+
+                if (this.pass_user != this.pass_user2) {
+                    this.message.html(o_t.T_('Las contraseñas no coinciden. Introdúcelas nuevamente.'));
+                    return this.b_error = true;
+                }
+
+                if (this.owner_type.length == 0) {
+                    this.message.html(o_t.T_('Selecciona tu relación con la empresa'));
+                    return this.b_error = true;
+                }
+
+                if (this.privacy_policy.prop('checked') == false) {
+                    this.message.html(o_t.T_('Para poder crear la cuenta debes aceptar las condiciones del servicio.'));
+                    return this.b_error = true;
+                }
+                else {
+                    this.legal_chk = '1';
+                }
+            },
+
+            error: function () {
+                this.message.addClass('error').removeClass('hide');
+                this.register_button.prop('disabled', false);
+            },
+
+            fail: function (o_res) {
+                this.message.html(o_res.s_resp).removeClass('success green');
+                this.error();
+            },
+
+            success: function (o_res) {
+                this.message.html(o_res.s_resp).removeClass('hide error green').addClass('success');
+                $register_change_owner.addClass('hide');
+            }
+        };
+
+        $register_change_owner.find('.register_button').removeClass('eventa');
+        register_general(o_data);
+    }
+
+    function login_change_owner() {
+        var $login_change_owner = $('#login_change_owner');
+        var o_data = {
+            message: $('.owner-info .message'),
+            email_user: $login_change_owner.find('[name="email_user"]').val(),
+            pass_user: $login_change_owner.find('[name="pass_user"]').val(),
+            autologin: $login_change_owner.find('[name="autologin"]').prop('checked'),
+            b_error: false,
+            before: function () {
+                if(this.email_user == '' || this.pass_user == '') {
+                    this.message.html(o_t.T_('Rellena todos los campos')).removeClass('hide success green').addClass('error');
+                    return this.b_error = true;
+                }
+            },
+            error: function () {
+
+            },
+            fail: function (o_res) {
+                this.message.html(o_res.s_resp).removeClass('hide success green').addClass('error');
+            },
+            success: function (o_res) {
+                this.message.html(o_res.s_greeting).removeClass('hide error green').addClass('success');
+                $login_change_owner.addClass('hide');
+                $('.change_owner_button').removeClass('hide');
+            }
+        };
+
+        login_general(o_data);
+    }
+
+    function change_owner(elm) {
+        var $owner_type = $('.owner-info input[name="owner_type"]:checked');
+
+        if($owner_type.length == 0) {
+            alert(o_t.T_('Selecciona tu relación con la empresa'));
+            return false;
+        }
+
+        location.href = $(elm).data('href') + '--owner.' + $owner_type.val();
+    }
+
+    $(function() {
+        var timer_counter;
+
+        $('body')
+        .on('click', '.show_owner_info', function() {
+            show_owner_info($(this));
+        })
+        .on('click', '#register_change_owner .register_button', function(e) {
+            e.preventDefault();
+            register_change_owner();
+        })
+        .on('click', '#login_change_owner .login_button', function (e) {
+            e.preventDefault();
+            login_change_owner();
+        })
+        .on('keyup input paste', '#textarea_comment', function (e) {
+            var $this = $(this);
+
+            clearTimeout(timer_counter);
+            timer_counter = setTimeout(function() {
+                comment_limitter($this);
+            }, 100);
+        });
+
+        $.ajax({
+            type: 'GET',
+            dataType: "json",
+            url: '/ficha/json/get_comments_form',
+            data: { id_com: '132025' },
+            success: function (res) {
+                $('.leave-comment-ajax').html(res.s_resp).removeClass('hide');
+
+                var $stars = $('.leave-rating .star');
+                $stars.bind('click', publish_rating);
+                $('button.leave-comment').bind('click', publish_comment);
+
+                check_session_storage();
+
+                o_cookie.check_cookie('s_username');
+            }
+        });
+
+        function check_session_storage() {
+            try {
+                var o_comment = JSON.parse(B64.decode(sessionStorage.getItem('s_comment')));
+
+                if(o_comment.id_com == 132025) {
+                    $('#textarea_comment').val(o_comment.comment).trigger('keyup');
+                }
+            }
+            catch(err) {
+            }
+        }
+
+        
+        function publish_comment() {
+            var $message = $('#message-comments-wrapper');
+            var $publish = $('#publish_comment');
+            var $textarea_comment = $('#textarea_comment');
+            var s_comment = $.trim($textarea_comment.val());
+
+            o_event_tracker.send_event($publish);
+
+            if($publish.prop('disabled'))
+                return false;
+
+            if (s_comment == '') {
+                alert('Write a comment');
+                return false;
+            }
+
+            var o_data = {
+                "id_com": 132025,
+                "comment": s_comment
+            };
+
+            // Codificamos los datos
+            var s_data = encode_b64_json(o_data);
+
+            if (window.sessionStorage) {
+                sessionStorage.setItem('s_comment', s_data);
+            }
+
+            $publish.prop('disabled', true);
+
+            // Hacemos login/signup
+            $.ajax({
+                data: { base64: s_data },
+                type: 'POST',
+                dataType: 'json',
+                url: "/ficha/json/send_comment",
+                success: function (o_res) {
+                    if (o_res.s_valid == 'OK') {
+                        $publish.hide();
+                        $('#textarea_comment').parent().hide();
+                        $message.html('<span class="message success">' + o_res.s_resp + '</span>').removeClass('hide');
+                        if(window.sessionStorage && sessionStorage.getItem('s_comment')) {
+                            sessionStorage.removeItem('s_comment');
+                        }
+                    }
+                    else {
+                        if("Your session has expired. Please, log in again." == o_res.s_resp) {
+                            $('#textarea_comment').parent().hide();
+                            $('.rating').hide();
+                            $publish.hide();
+
+                            $message.html('<span class="message">Finally, to publish your opinion we need you to log in or sign up in Infoisinfo:</span>').removeClass('hide');
+                            $('.comment-login').removeClass('hide');
+                        }
+                        else {
+                            $publish.prop('disabled', false);
+                            $message.html('<span class="message error">' + o_res.s_resp + '</span>').removeClass('hide');
+                        }
+                    }
+                }
+            });
+        }
+
+        
+        function publish_rating() {
+            var $this = $(this);
+            var $message = $('#message-comments-wrapper');
+            $this.parent().addClass('rated');
+            $this.addClass('selected');
+            $this.nextAll('.star').addClass('selected');
+
+            var o_data = {
+                id_com: 132025,
+                rating: $this.attr('data-rating')
+            };
+
+            var s_data = encode_b64_json(o_data);
+            $.ajax({
+                type: 'POST',
+                dataType: "json",
+                url: '/ficha/json/send_rating',
+                data: { base64: s_data },
+                success: function (o_res) {
+                    if (o_res.s_valid == 'OK') {
+                        $message.html('<span class="message success">' + o_res.s_resp + '</span>').removeClass('hide');
+                        
+                    }
+                    else {
+                        $this.parent().removeClass('rated');
+                        $message.html('<span class="message error">' + o_res.s_resp + '</span>').removeClass('hide');
+                    }
+                }
+            });
+        }
+
+        function comment_limitter($textarea) {
+            var n_limit = 1000;
+
+            if(typeof $textarea.data('limit') !== 'undefined') {
+                n_limit = $textarea.data('limit');
+            }
+
+            var $counter = $('.rating .counter'),
+                    $button = $('#publish_comment');
+
+            var length = $textarea.val().length;
+            $counter.children('.actual').text(length);
+
+
+            if (length > n_limit) {
+                $counter.addClass('exceeded');
+                $textarea.addClass('exceeded');
+                $button.prop('disabled', true);
+            } else {
+                $counter.removeClass('exceeded');
+                $textarea.removeClass('exceeded');
+                $button.prop('disabled', false);
+            }
+        }
+
+        
+            var $gmap = $('#gmap');
+            var $map_trigger = $('.map-trigger');
+            var b_map_init = false;
+            var b_map_shown = false;
+            var s_gmaps_url = 'https://maps.googleapis.com/maps/api/js?callback=show_map' + s_gmaps_key;
+
+            $map_trigger.click(function (e) {
+                e.preventDefault();
+
+                
+                if(b_map_init && !b_map_shown) {
+                    show_map();
+                }
+                
+                else if(b_map_init && b_map_shown) {
+                    hide_map();
+                }
+                
+                else {
+                    $.getScript(s_gmaps_url);
+                }
+            });
+
+            
+            window.show_map = function() {
+                $map_trigger.removeClass('eventa');
+                b_map_init = true;
+                b_map_shown = true;
+
+                $gmap.show();
+                var map = initialize_map('gmap', '33.994659', '71.419022', "Zaynoon Pharmaceuticals (pvt) Ltd.", {
+                    draggable: true
+                });
+            };
+
+            window.hide_map = function() {
+                $map_trigger.removeClass('eventa');
+                b_map_shown = false;
+                $gmap.hide();
+            };
+            });
+</script>
+
+
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+    </style>
+
+<script>
+    function async(script, _cb) {
+        var o_head = document.getElementsByTagName("HEAD")[0];
+        var o_script = document.createElement('script');
+        o_script.type = 'text/javascript';
+        o_script.src = script;
+        // o_script.async = true;
+        o_head.appendChild(o_script);
+        o_script.onload = _cb;
+    }
+
+    function observer_loaded() {
+        if (document.documentElement.className.indexOf("fonts-loaded") > -1) {
+            return;
+        }
+        var font = new FontFaceObserver("Roboto");
+
+        font.load(null, 7000).then(function () {
+            console.log('font loaded');
+            document.documentElement.className += " fonts-loaded";
+        }, function() {
+            console.log('font not available');
+        });
+    }
+
+    async("https://d262ijfj3ea8g5.cloudfront.net/2017/js/vendor/fontfaceobserver.standalone.js", observer_loaded);
+</script>
+</body>
+</html>
+
